@@ -1,0 +1,177 @@
+@import "reset";
+/*******************************************************************
+*****************************Header area start**********************
+********************************************************************/
+
+header {
+    background-color: #252525;
+}
+
+.top-menu {
+    border-bottom: 1px solid #323232;
+
+    .coustomer-support {
+        .ContentWrapper {
+            font-size: .9rem;
+
+            ul {
+                margin-left: -16px !important;
+
+
+                li {
+                    position: relative;
+
+                    a {
+                        color: #fff !important;
+
+                    }
+
+                    .orsign:before {
+                        content: '';
+                        background-color: #323232;
+                        position: absolute;
+                        top: 0;
+                        left: 2px;
+                        width: 3px;
+                        height: 24px;
+
+                    }
+
+                }
+
+            }
+        }
+    }
+
+    .option-div {
+        .ContentWrapper {
+            margin-right: 13px;
+
+            .language {
+                position: relative;
+            }
+
+            .wishlist {
+                position: relative;
+            }
+
+        }
+    }
+}
+
+.language:before {
+    content: '';
+    background-color: #323232;
+    position: absolute;
+    top: 0;
+    left: 2px;
+    width: 3px;
+    height: 24px;
+
+}
+
+.wishlist:before {
+    content: '';
+    background-color: #323232;
+    position: absolute;
+    top: 16;
+    left: -11px;
+    width: 3px;
+    height: 24px;
+
+}
+
+.m-right {
+    margin-right: .2rem;
+}
+
+select {
+    border: 0px;
+    background-color: #252525;
+    color: #fff;
+}
+
+/*********sub menu**************/
+#categorie,
+.inputbackGround {
+    color: #000;
+    border-radius: 5px;
+    background: #fff !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+button {
+
+    background-color: #f33535 !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+
+    .fas {
+        color: #fff !important;
+    }
+}
+
+.shop-wrapper {
+    .shop-bag {
+        width: 1.5rem;
+        height: 1.5rem;
+        border: 1px solid #fff;
+        border-radius: 100%;
+
+        i {
+            margin-left: 4px;
+            position: relative;
+        }
+
+        :after {
+            content: 'C';
+            position: absolute;
+            background-color: #f33535;
+            top: -1rem;
+            left: 7px;
+            border-radius: 100%;
+            width: 1rem;
+            height: 1rem;
+
+        }
+    }
+
+    .mycart {
+
+
+        p {
+
+            span {
+                color: #f33535;
+            }
+        }
+
+
+    }
+}
+
+
+
+/*****************************Main nav-bar*******************************/
+.main-navbar {
+    background-color: #f33535;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.userAccount {
+    background-color: #e8b30d;
+    border-radius: 5px;
+
+    .dropdown {
+        #navbarDropdown {
+            color: #fff;
+        }
+    }
+
+    .dropdown-menu {
+      
+
+    }
+}

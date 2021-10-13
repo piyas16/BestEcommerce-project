@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*******************************************************************
+*****************************Header area start**********************
+********************************************************************/
+header {
+  background-color: #252525;
+}
+
+.top-menu {
+  border-bottom: 1px solid #323232;
+}
+.top-menu .coustomer-support .ContentWrapper {
+  font-size: 0.9rem;
+}
+.top-menu .coustomer-support .ContentWrapper ul {
+  margin-left: -16px !important;
+}
+.top-menu .coustomer-support .ContentWrapper ul li {
+  position: relative;
+}
+.top-menu .coustomer-support .ContentWrapper ul li a {
+  color: #fff !important;
+}
+.top-menu .coustomer-support .ContentWrapper ul li .orsign:before {
+  content: "";
+  background-color: #323232;
+  position: absolute;
+  top: 0;
+  left: 2px;
+  width: 3px;
+  height: 24px;
+}
+.top-menu .option-div .ContentWrapper {
+  margin-right: 13px;
+}
+.top-menu .option-div .ContentWrapper .language {
+  position: relative;
+}
+.top-menu .option-div .ContentWrapper .wishlist {
+  position: relative;
+}
+
+.language:before {
+  content: "";
+  background-color: #323232;
+  position: absolute;
+  top: 0;
+  left: 2px;
+  width: 3px;
+  height: 24px;
+}
+
+.wishlist:before {
+  content: "";
+  background-color: #323232;
+  position: absolute;
+  top: 16;
+  left: -11px;
+  width: 3px;
+  height: 24px;
+}
+
+.m-right {
+  margin-right: 0.2rem;
+}
+
+select {
+  border: 0px;
+  background-color: #252525;
+  color: #fff;
+}
+
+/*********sub menu**************/
+#categorie,
+.inputbackGround {
+  color: #000;
+  border-radius: 5px;
+  background: #fff !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+
+button {
+  background-color: #f33535 !important;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+button .fas {
+  color: #fff !important;
+}
+
+.shop-wrapper .shop-bag {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid #fff;
+  border-radius: 100%;
+}
+.shop-wrapper .shop-bag i {
+  margin-left: 4px;
+  position: relative;
+}
+.shop-wrapper .shop-bag :after {
+  content: "C";
+  position: absolute;
+  background-color: #f33535;
+  top: -1rem;
+  left: 7px;
+  border-radius: 100%;
+  width: 1rem;
+  height: 1rem;
+}
+.shop-wrapper .mycart p span {
+  color: #f33535;
+}
+
+/*****************************Main nav-bar*******************************/
+.main-navbar {
+  background-color: #f33535;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.userAccount {
+  background-color: #e8b30d;
+  border-radius: 5px;
+}
+.userAccount .dropdown #navbarDropdown {
+  color: #fff;
+}/*# sourceMappingURL=demo.css.map */
