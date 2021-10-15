@@ -1,0 +1,24 @@
+@media only screen and (min-width: 320px) and (max-width:480px) {
+    .smallDNone {
+        display: none;
+    }
+
+    .justify-content-end.align-items-center {
+        width: 7rem;
+        margin-left: -2rem !important;
+    }
+
+    .categorieform {
+        display: none !important;
+    }
+
+    #topSection .bg-color {
+        display: none;
+    }
+
+    .watch-content img {
+        width: 48% !important;
+        top: 1.3rem !important;
+
+    }
+}

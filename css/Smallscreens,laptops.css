@@ -1,0 +1,32 @@
+@media only screen and (min-width: 769px) and (max-width:1024px) {
+    #topSection .catagoriMenu ul li {
+
+        padding: .7rem 0rem;
+
+    }
+
+    #carouselExampleControls {
+
+        height: 67vh !important;
+
+    }
+
+    #carouselExampleControls .carousel-inner .img-wrapper img {
+        width: 138% !important;
+        margin-left: -5rem !important;
+    }
+
+    .carousel-inner .carousel-item .slidertext {
+        width: 12rem;
+        margin-left: 1.5rem !important;
+        margin-bottom: 6rem;
+        z-index: 1;
+    }
+
+    .watch-content img {
+        width: 22% !important;
+   
+        top: -0.4rem !important;
+        
+    }
+}

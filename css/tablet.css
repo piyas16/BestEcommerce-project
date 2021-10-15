@@ -1,0 +1,19 @@
+@media only screen and (min-width: 481px) and (max-width:768px) {
+    .smallDNone {
+        display: none;
+    }
+    #categorie{
+        display: none !important;
+    }
+    #topSection .bg-color {
+        display: none;
+    }
+
+    .watch-content img {
+        width: 29% !important;
+
+        top: 1.3rem !important;
+
+    }
+
+}

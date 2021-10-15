@@ -1,0 +1,18 @@
+@media only screen and (min-width: 1025px) and (max-width:1200px) {
+    .first-img {
+        width: 116% !important;
+        margin-left: -.5rem;
+    }
+
+    .carousel-item .slidertext {
+        margin-left: 4rem !important;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width:1080px) {
+    #topSection .catagoriMenu ul li a {
+
+        font-size: 0.7rem;
+
+    }
+}

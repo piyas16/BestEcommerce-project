@@ -1,0 +1,16 @@
+@media only screen and (min-width: 1201px) {
+    #topSection {
+        height: 90vh !important;
+        
+    }
+
+    #carouselExampleControls {
+
+        height: 86vh !important;
+
+    }
+
+    .imgtop {
+        top: 3.2rem !important;
+    }
+}

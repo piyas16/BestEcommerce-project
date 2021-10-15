@@ -17,19 +17,27 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome.min.css">
     <link rel="stylesheet" href="css/demo.css">
+    <!--____________________________Responsive file________________________________________-->
+    <link rel="stylesheet" href="css/Extralarge.css">
+    <link rel="stylesheet" href="css/Desktops,large.css">
+    <link rel="stylesheet" href="css/Smallscreens,laptops.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/mobile.css">
+  
 </head>
 
 <body>
     <header>
-        <div class="container-fluid">
+        <div class="container-fluid container-xxl">
 
             <div class="top-menu">
 
                 <div class="row">
-                    <div class="col-12 col-lg-6">
+                    <div class="col-12 col-lg-6 smallDNone">
                         <div class="coustomer-support">
                             <div class="ContentWrapper ">
-                                <ul class=" d-flex text-start justify-content-center justify-content-lg-start align-items-center pt-3">
+                                <ul
+                                    class=" d-flex text-start justify-content-center justify-content-lg-start align-items-center pt-3">
                                     <li class="m-right"><a href="">World's Fastest online Shopping Deastination
                                         </a></li>
                                     <li class="px-2"><a class="orsign" href="">Customer Support : +91 123 456 7890
@@ -41,7 +49,8 @@
                     </div>
                     <div class="col-12 col-lg-6">
                         <div class="option-div">
-                            <div class="ContentWrapper d-flex justify-content-lg-end justify-content-center align-items-center">
+                            <div
+                                class="ContentWrapper d-flex justify-content-lg-end justify-content-center align-items-center">
                                 <div class="currency">
                                     <label class="text-white" for="cars">Currency:</label>
                                     <select name="" id="currency">
@@ -69,13 +78,13 @@
                 </div>
             </div>
             <div class="sub-menu">
-                <div class="container-fluid">
+                <div class="container-fluid container-xxl">
                     <div class="row">
                         <div class="col-8">
                             <div class="navContentWrapper d-flex justify-content-between align-content-center">
                                 <a class="navbar-brand">
                                     <img src="img/logo.png" alt=""></a>
-                                <form class="d-flex my-2">
+                                <form class="d-flex my-2 categorieform">
                                     <div class="inputbackGround d-flex">
                                         <select name="" id="categorie">
                                             <option value="All categories">All categories</option>
@@ -147,7 +156,9 @@
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
-                                        <i class="text-white fas fa-user-alt"><p class="d-inline px-2">ACCOUNT</p></i>
+                                        <i class="text-white fas fa-user-alt">
+                                            <p class="d-inline px-2">ACCOUNT</p>
+                                        </i>
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <li><a class="dropdown-item text-center" href="#">ACCOUNT</a></li>
@@ -167,6 +178,100 @@
             </div>
         </div>
     </header>
+    <!--_________________________Main Section________________________________----->
+    <section class="mt-4" id="topSection">
+        <div class="container-fluid container-xxl">
+            <div class="row">
+                <div class="col-lg-2 col-md-3">
+                    <div class="catagoriMenu">
+                        <ul class="">
+                            <li class="background-red">
+                                <h3 class="pt-1 ">CATEGORIES</h3>
+                            </li>
+                            <li><a href="">Clothes<span><i class="fas fa-greater-than"></i></span></a></li>
+                            <li><a href="">Electronics<span><i class="fas fa-greater-than"></i></span></a></li>
+                            <li><a href="">Home & Furniture<span><i class="fas fa-greater-than"></i></span></a></li>
+                            <li><a href="">Sports</a></li>
+                            <li><a href="">Mobile & Tablets</a></li>
+                            <li><a href="">Home & Kitchen<span><i class="fas fa-greater-than"></i></span></a></li>
+                            <li><a href="">Beauty & Health</a></li>
+                            <li><a href="">Computers & Gaming</a></li>
+                            <li><a href="">+ More Categories</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bg-color col-lg-8 col-md-9">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active d-flex justify-content-between align-items-center">
+                                <div class="slidertext">
+                                    <h2>Fashion Sale</h2>
+                                    <p>Get up to <span>
+                                            50% OFF
+                                        </span></p>
+                                    <p> on Cloths & Accessories</p>
+                                </div>
+                                <div class="img-wrapper">
+                                    <img src="img/sliderphoto.png" class="first-img d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="carousel-item d-flex justify-content-between align-items-center">
+                                <div class="slidertext">
+                                    <h2>Fashion Sale</h2>
+                                    <p>Get up to <span>
+                                            50% OFF
+                                        </span></p>
+                                    <p> on Cloths & Accessories</p>
+                                </div>
+                                <div class="img-wrapper">
+                                    <img src="img/sliderphoto.png" class="first-img d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="carousel-item d-flex justify-content-between align-items-center">
+                                <div class="slidertext">
+                                    <h2>Fashion Sale</h2>
+                                    <p>Get up to <span>
+                                            50% OFF
+                                        </span></p>
+                                    <p> on Cloths & Accessories</p>
+                                </div>
+                                <div class="img-wrapper">
+                                    <img src="img/sliderphoto.png" class="first-img d-block w-100" alt="...">
+                                </div>
+                            </div>
+
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-2 watchCol">
+                    <div class="watch-div py-2">
+                        <div class="watch-content">
+                            <h4>Watches</h4>
+
+                            <img src="img/analogWatch.png" alt="">
+                        </div>
+                    </div>
+                    <div class="watch-div py-2 changeColor mt-4">
+                        <div class="watch-content">
+                            <h4>Headphones</h4>
+
+                            <img class="imgtop" src="img/redHeadphone.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <!--____________________________js file___________________________________-->
