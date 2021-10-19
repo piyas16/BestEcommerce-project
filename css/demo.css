@@ -14,7 +14,7 @@ h4,
 h5,
 h6,
 p {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 500;
 }
 
@@ -36,20 +36,25 @@ header {
 .top-menu {
   border-bottom: 1px solid #323232;
 }
+
 .top-menu .coustomer-support .ContentWrapper {
-  font-size: 0.9rem;
+  font-size: .9rem;
 }
+
 .top-menu .coustomer-support .ContentWrapper ul {
   margin-left: -16px !important;
 }
+
 .top-menu .coustomer-support .ContentWrapper ul li {
   position: relative;
 }
+
 .top-menu .coustomer-support .ContentWrapper ul li a {
   color: #fff !important;
 }
+
 .top-menu .coustomer-support .ContentWrapper ul li .orsign:before {
-  content: "";
+  content: '';
   background-color: #323232;
   position: absolute;
   top: 0;
@@ -57,18 +62,21 @@ header {
   width: 3px;
   height: 24px;
 }
+
 .top-menu .option-div .ContentWrapper {
   margin-right: 13px;
 }
+
 .top-menu .option-div .ContentWrapper .language {
   position: relative;
 }
+
 .top-menu .option-div .ContentWrapper .wishlist {
   position: relative;
 }
 
 .language:before {
-  content: "";
+  content: '';
   background-color: #323232;
   position: absolute;
   top: 0;
@@ -78,7 +86,7 @@ header {
 }
 
 .wishlist:before {
-  content: "";
+  content: '';
   background-color: #323232;
   position: absolute;
   top: 16;
@@ -88,7 +96,7 @@ header {
 }
 
 .m-right {
-  margin-right: 0.2rem;
+  margin-right: .2rem;
 }
 
 select {
@@ -112,8 +120,9 @@ button {
   border-top-left-radius: 0px !important;
   border-bottom-left-radius: 0px !important;
 }
-button .fas {
-  color: #fff !important;
+
+button .searchbtn {
+  color: #fff;
 }
 
 .shop-wrapper .shop-bag {
@@ -122,12 +131,14 @@ button .fas {
   border: 1px solid #fff;
   border-radius: 100%;
 }
+
 .shop-wrapper .shop-bag i {
   margin-left: 4px;
   position: relative;
 }
+
 .shop-wrapper .shop-bag :after {
-  content: "C";
+  content: 'C';
   position: absolute;
   background-color: #f33535;
   top: -1rem;
@@ -136,6 +147,7 @@ button .fas {
   width: 1rem;
   height: 1rem;
 }
+
 .shop-wrapper .mycart p span {
   color: #f33535;
 }
@@ -151,6 +163,7 @@ button .fas {
   background-color: #e8b30d;
   border-radius: 5px;
 }
+
 .userAccount .dropdown #navbarDropdown {
   color: #fff;
 }
@@ -159,33 +172,39 @@ button .fas {
 ***************************** Section area start********************
 ********************************************************************/
 #topSection {
-  height: 81vh;
+  height: 84vh;
   background: #f2f3f7;
   /****************slider css***********************/
   /*********************watch section***********************************/
 }
+
 #topSection .catagoriMenu ul {
   padding-left: 0rem;
 }
+
 #topSection .catagoriMenu ul li {
   background-color: #fff;
-  padding: 0.7rem 0rem;
+  padding: .7rem 0rem;
   position: relative;
 }
+
 #topSection .catagoriMenu ul li:hover {
   background-color: #f7f7f7;
   border-left: 2px solid #f33535;
 }
+
 #topSection .catagoriMenu ul li h3 {
-  padding: 0.1rem 0.8rem;
+  padding: .1rem .8rem;
   font-size: 1rem;
   color: #fff;
 }
+
 #topSection .catagoriMenu ul li a {
   padding: 0.1rem 0.8rem;
   font-size: 0.8rem;
   color: #807676;
 }
+
 #topSection .catagoriMenu ul li a span i {
   font-size: 0.8rem;
   position: absolute !important;
@@ -193,40 +212,62 @@ button .fas {
   right: 0.6rem;
   color: #9a9292;
 }
+
 #topSection .background-red {
   background: #f33535 !important;
 }
+
 #topSection .bg-color {
   overflow: hidden !important;
 }
+
 #topSection .bg-color #carouselExampleControls {
   position: relative;
-  height: 78vh !important;
+  height: 79.5vh !important;
   background-color: #f8ddca;
 }
+
 #topSection .bg-color #carouselExampleControls .carousel-inner .carousel-item .slidertext {
   width: 12rem;
   margin-left: 5rem;
   margin-bottom: 6rem;
 }
+
 #topSection .bg-color #carouselExampleControls .carousel-inner .carousel-item .slidertext h2 {
   margin-bottom: 2rem;
 }
+
 #topSection .bg-color #carouselExampleControls .carousel-inner .carousel-item .slidertext p {
-  line-height: 0.6rem;
+  line-height: .6rem;
 }
+
 #topSection .bg-color #carouselExampleControls .carousel-inner .carousel-item .slidertext p span {
   font-size: 1.6rem;
   color: #f33535;
 }
+
 #topSection .bg-color #carouselExampleControls .carousel-inner .img-wrapper {
   width: 65%;
-  height: 78vh;
+  height: 79.5vh;
 }
+
+#topSection .bg-color #carouselExampleControls .carousel-inner .img-wrapper .schoolbag {
+  width: 40% !important;
+  margin-left: 14rem;
+  margin-top: 5rem;
+}
+
+#topSection .bg-color #carouselExampleControls .carousel-inner .img-wrapper .watchimg {
+  width: 69% !important;
+  margin-left: 5rem;
+  margin-top: 4rem;
+}
+
 #topSection .bg-color #carouselExampleControls .carousel-inner .img-wrapper img {
   width: 100%;
   margin-left: 0rem;
 }
+
 #topSection .bg-color #carouselExampleControls button {
   position: absolute !important;
   width: 28px !important;
@@ -234,19 +275,23 @@ button .fas {
   top: 44%;
   border-radius: 5px !important;
 }
+
 #topSection .watchCol {
   height: 65vh;
 }
+
 #topSection .watchCol .watch-div {
   background-color: #95d2f1;
-  height: 56.7%;
+  height: 58%;
   position: relative;
 }
+
 #topSection .watchCol .watch-div .watch-content h4 {
   position: relative;
-  margin-left: 0.6rem;
+  margin-left: .6rem;
   font-size: 1.3rem;
 }
+
 #topSection .watchCol .watch-div .watch-content h4:after {
   content: "";
   position: absolute;
@@ -256,15 +301,18 @@ button .fas {
   width: 49%;
   height: 8%;
 }
+
 #topSection .watchCol .watch-div .watch-content img {
   width: 84%;
   position: absolute;
   top: 4.3rem;
   right: 0rem;
 }
+
 #topSection .changeColor {
   background: #f9cdda !important;
 }
+
 #topSection .changeColor h4:after {
   content: "";
   position: absolute;
@@ -273,4 +321,476 @@ button .fas {
   background: #000;
   width: 74% !important;
   height: 8%;
-}/*# sourceMappingURL=demo.css.map */
+}
+
+/********************shopNow Section******************************/
+#shopNow {
+  background-color: #f2f3f7;
+  padding-bottom: 4rem;
+  /*********************Our Service*********************/
+  /******************Best sell***********************/
+  /****************************exclusive div**********************************/
+}
+
+#shopNow .menCollection {
+  height: 52vh;
+  background-image: url("../img/mencollection.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  position: relative;
+  transition: all .5s !important;
+}
+
+#shopNow .menCollection:hover .menText {
+  display: block;
+}
+
+#shopNow .menCollection .menText {
+  text-align: center;
+  background: black;
+  width: 9rem;
+  padding: 10px 0rem;
+  border: 2px solid #fff;
+  position: absolute;
+  top: 15rem;
+  left: 11%;
+  display: none;
+}
+
+#shopNow .menCollection .menText a {
+  color: #fff;
+  font-size: .8rem;
+}
+
+#shopNow .ourService {
+  height: 56vh;
+  background: #fff;
+  margin-top: 1rem;
+}
+
+#shopNow .ourService .title {
+  background: red;
+}
+
+#shopNow .ourService .title h3 {
+  margin-left: .6rem;
+  font-size: 1rem;
+  padding: .5rem 0;
+  color: #fff;
+}
+
+#shopNow .ourService .serviceWrapper ul .servicelist {
+  margin-left: -2rem;
+  border-bottom: 1px solid #e2e2e2;
+  height: 12vh;
+}
+
+#shopNow .ourService .serviceWrapper ul .servicelist .serviceCntentWrapper img {
+  width: 34%;
+  max-width: 5rem;
+  margin-top: -.5rem;
+}
+
+#shopNow .ourService .serviceWrapper ul .servicelist .serviceCntentWrapper .mainContentWrapper h6 {
+  font-size: .7rem;
+  margin-top: 1rem;
+}
+
+#shopNow .ourService .serviceWrapper ul .servicelist .serviceCntentWrapper .mainContentWrapper p {
+  font-size: 0.7rem;
+  margin-top: -.3rem;
+}
+
+#shopNow .border0 {
+  border-bottom: 0px solid !important;
+}
+
+#shopNow .bestSellers {
+  height: 58vh;
+  background: #fff;
+  margin-top: 1rem;
+}
+
+#shopNow .bestSellers .besttitle {
+  background: red;
+}
+
+#shopNow .bestSellers .besttitle h3 {
+  margin-left: .6rem;
+  font-size: 1rem;
+  padding: .5rem 0;
+  color: #fff;
+}
+
+#shopNow .bestSellers .bestsellwrapper {
+  padding: 0 .5rem;
+}
+
+#shopNow .bestSellers .bestsellwrapper .list {
+  margin-top: .7rem;
+  margin-left: -2rem;
+  height: 11vh;
+}
+
+#shopNow .bestSellers .bestsellwrapper .list .imgWrapper {
+  background: #f7f7f7;
+}
+
+#shopNow .bestSellers .bestsellwrapper .list .imgWrapper img {
+  width: 3.5rem;
+}
+
+#shopNow .bestSellers .bestsellwrapper .list .textPrice {
+  margin-left: .2rem;
+}
+
+#shopNow .bestSellers .bestsellwrapper .list .textPrice a h6 {
+  font-size: .7rem;
+}
+
+#shopNow .bestSellers .bestsellwrapper .list .textPrice .stars {
+  margin-top: -.4rem;
+}
+
+#shopNow .bestSellers .bestsellwrapper .list .textPrice .stars i {
+  font-size: .7rem;
+  color: #feba29;
+}
+
+#shopNow .bestSellers .bestsellwrapper .list .textPrice .price p {
+  font-size: .9rem;
+}
+
+#shopNow .newsletter {
+  height: 45vh;
+  background: #fff;
+  margin-top: 1rem;
+}
+
+#shopNow .newsletter .newstitle {
+  background: red;
+}
+
+#shopNow .newsletter .newstitle h3 {
+  margin-left: .6rem;
+  font-size: 1rem;
+  padding: .5rem 0;
+  color: #fff;
+}
+
+#shopNow .newsletter .newswrapper {
+  margin: 0 .2rem;
+}
+
+#shopNow .newsletter .newswrapper img {
+  width: 6rem;
+  margin-left: 1.4rem;
+}
+
+#shopNow .newsletter .newswrapper p {
+  padding: 0 .6rem;
+  font-size: .6rem;
+}
+
+#shopNow .newsletter .newswrapper form input {
+  width: 100%;
+  border: 2px solid #e2e2e2;
+  padding: .4rem;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+#shopNow .newsletter .newswrapper form button {
+  color: #fff;
+  background: #252525 !important;
+  margin-left: 16%;
+  border-radius: 5px !important;
+}
+
+#shopNow .exclusive {
+  height: 26vh;
+  background: #fff;
+  margin-top: 1rem;
+  padding: 1rem;
+  height: 21vh;
+}
+
+#shopNow .exclusive .excwrapper {
+  position: relative;
+  border: 3px solid #e2e2e2;
+  height: 16vh;
+}
+
+#shopNow .exclusive .excwrapper h6 {
+  margin-top: 1.3rem;
+  color: #252525;
+}
+
+#shopNow .exclusive .excwrapper h6:after {
+  content: '';
+  position: absolute;
+  top: 45px;
+  left: 33px;
+  background: #252525;
+  width: 55%;
+  height: 4%;
+}
+
+#shopNow .exclusive .excwrapper p {
+  font-size: .7em;
+  font-weight: 700;
+  line-height: 1.5rem;
+  color: #252525;
+}
+
+/*******************************Right site service**************************************/
+.dealDiv {
+  height: 54vh;
+  background: #fff;
+  border: 2px solid #f33535;
+}
+
+.dealDiv .dealtext {
+  background: red;
+}
+
+.dealDiv .dealtext h3 {
+  margin-left: .6rem;
+  font-size: 1rem;
+  padding: .5rem 0;
+  color: #fff;
+}
+
+.dealDiv .dealContentWrapper {
+  padding: 0 0.2rem;
+}
+
+.dealDiv .dealContentWrapper .imgwrapper {
+  background: #f7f7f7;
+  height: 19.5vh;
+}
+
+.dealDiv .dealContentWrapper .imgwrapper .new {
+  background-color: black;
+  width: 2.5rem;
+}
+
+.dealDiv .dealContentWrapper .imgwrapper .new p {
+  color: #fff;
+  text-align: center;
+  font-size: .7rem;
+}
+
+.dealDiv .dealContentWrapper .imgwrapper img {
+  width: 52%;
+  margin-top: -1.5rem;
+  margin-left: 24%;
+}
+
+.dealDiv .dealContentWrapper .imgwrapper .hovereffect {
+  width: 7.5rem;
+  margin: auto;
+  margin-top: -3.5rem;
+}
+
+.dealDiv .dealContentWrapper .imgwrapper .hovereffect .btn {
+  width: 2rem;
+  background: #fff !important;
+  height: 2rem;
+  border-radius: 5px !important;
+  margin-left: 0.4rem;
+  position: relative;
+  border: 1px solid #d9d9d9;
+}
+
+.dealDiv .dealContentWrapper .imgwrapper .hovereffect .btn .icon {
+  margin-top: -7px;
+  transition: .6s;
+  position: absolute;
+  margin-left: -8px;
+}
+
+.dealDiv .dealContentWrapper .imgwrapper .hovereffect .btn:hover {
+  background: #f33535 !important;
+  border: #f33535;
+  color: #fff;
+}
+
+.dealDiv .dealContentWrapper .priceContentWrapper .stars {
+  color: #e8b30d;
+  margin-top: -0.8rem;
+}
+
+.dealDiv .dealContentWrapper .dayCounter {
+  width: 82%;
+  margin: auto;
+}
+
+.dealDiv .dealContentWrapper .dayCounter .day #inday {
+  text-align: center;
+  width: 153%;
+  height: 5vh;
+  background: #f7f7f7 !important;
+}
+
+.dealDiv .dealContentWrapper .dayCounter .day p {
+  font-size: 0.7rem;
+}
+
+.dealDiv .dealContentWrapper .dayCounter .hours {
+  margin-left: 12%;
+}
+
+.dealDiv .dealContentWrapper .dayCounter .hours #inhoure {
+  text-align: center;
+  width: 97%;
+  height: 5vh;
+  background: #f7f7f7 !important;
+}
+
+.dealDiv .dealContentWrapper .dayCounter .hours p {
+  font-size: 0.7rem;
+}
+
+.dealDiv .dealContentWrapper .dayCounter .minuts {
+  margin-left: 2%;
+}
+
+.dealDiv .dealContentWrapper .dayCounter .minuts #inminuts {
+  text-align: center;
+  width: 112%;
+  height: 5vh;
+  background: #f7f7f7 !important;
+}
+
+.dealDiv .dealContentWrapper .dayCounter .minuts p {
+  font-size: 0.7rem;
+}
+
+.dealDiv .dealContentWrapper .dayCounter .second {
+  margin-left: 5%;
+}
+
+.dealDiv .dealContentWrapper .dayCounter .second #insecond {
+  text-align: center;
+  width: 153%;
+  height: 5vh;
+  background: #f7f7f7 !important;
+}
+
+.dealDiv .dealContentWrapper .dayCounter .second p {
+  font-size: 0.7rem;
+}
+
+/*******************Dealhover css**********************/
+.btn1 {
+  opacity: 0;
+  transition: .9s;
+  transform: translatey(-15px);
+}
+
+.btn2 {
+  opacity: 0;
+  transition: .6s;
+  transform: translatey(-15px);
+}
+
+.btn3 {
+  opacity: 0;
+  transition: .3s;
+  transform: translatey(-15px);
+}
+
+.dealDiv:hover .btn {
+  opacity: 1;
+  transform: translatey(10px);
+}
+
+/*******************Dealhover css end**********************/
+/************************testmonial slider css*********************/
+/************************testmonial slider css end*********************/
+/*********************fashion bag css**************************/
+.fashionbag {
+  background: #fff;
+  margin: 1.5rem 0;
+  height: 42vh;
+  background: #e3dacb;
+}
+
+.fashionbag .fashiontextWrapper h3 {
+  font-size: 1rem;
+}
+
+.fashionbag .fashiontextWrapper p {
+  font-size: .8rem;
+}
+
+.fashionbag .fashiontextWrapper a {
+  padding: 0.2rem .5rem;
+  border: 1px solid black;
+  font-size: .8rem;
+  color: black;
+}
+
+.fashionbag .fashiontextWrapper img {
+  width: 60%;
+}
+
+/*********************fashion bag end**************************/
+/*******************************latest product*************************/
+.latestproduct {
+  height: 58vh;
+  background: #fff;
+  margin-top: 1rem;
+}
+
+.latestproduct .latestttitle {
+  background: red;
+}
+
+.latestproduct .latestttitle h3 {
+  margin-left: .6rem;
+  font-size: 1rem;
+  padding: .5rem 0;
+  color: #fff;
+}
+
+.latestproduct .latestwrapper {
+  padding: 0 .5rem;
+}
+
+.latestproduct .latestwrapper .list {
+  margin-top: .7rem;
+  margin-left: -2rem;
+  height: 11vh;
+}
+
+.latestproduct .latestwrapper .list .imgWrapper {
+  background: #f7f7f7;
+}
+
+.latestproduct .latestwrapper .list .imgWrapper img {
+  width: 3.5rem;
+}
+
+.latestproduct .latestwrapper .list .textPrice {
+  margin-left: .2rem;
+}
+
+.latestproduct .latestwrapper .list .textPrice a h6 {
+  font-size: .7rem;
+}
+
+.latestproduct .latestwrapper .list .textPrice .stars {
+  margin-top: -.4rem;
+}
+
+.latestproduct .latestwrapper .list .textPrice .stars i {
+  font-size: .7rem;
+  color: #feba29;
+}
+
+.latestproduct .latestwrapper .list .textPrice .price p {
+  font-size: .9rem;
+}

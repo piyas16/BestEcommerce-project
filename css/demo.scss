@@ -107,8 +107,8 @@ button {
     border-top-left-radius: 0px !important;
     border-bottom-left-radius: 0px !important;
 
-    .fas {
-        color: #fff !important;
+    .searchbtn {
+        color: #fff;
     }
 }
 
@@ -177,7 +177,7 @@ button {
 ***************************** Section area start********************
 ********************************************************************/
 #topSection {
-    height: 81vh;
+    height: 84vh;
 
     background: #f2f3f7;
 
@@ -237,13 +237,13 @@ button {
 
         #carouselExampleControls {
             position: relative;
-            height: 78vh !important;
+            height: 79.5vh !important;
             background-color: #f8ddca;
 
             .carousel-inner {
+
+
                 .carousel-item {
-
-
                     .slidertext {
                         width: 12rem;
                         margin-left: 5rem;
@@ -270,7 +270,19 @@ button {
 
                 .img-wrapper {
                     width: 65%;
-                    height: 78vh;
+                    height: 79.5vh;
+
+                    .schoolbag {
+                        width: 40% !important;
+                        margin-left: 14rem;
+                        margin-top: 5rem;
+                    }
+
+                    .watchimg {
+                        width: 69% !important;
+                        margin-left: 5rem;
+                        margin-top: 4rem;
+                    }
 
                     img {
                         width: 100%;
@@ -298,7 +310,7 @@ button {
 
         .watch-div {
             background-color: #95d2f1;
-            height: 56.7%;
+            height: 58%;
             position: relative;
 
             .watch-content {
@@ -344,6 +356,545 @@ button {
                 width: 74% !important;
                 height: 8%;
 
+            }
+        }
+    }
+}
+
+/********************shopNow Section******************************/
+#shopNow {
+    background-color: #f2f3f7;
+    padding-bottom: 4rem;
+
+    .menCollection {
+        height: 52vh;
+        background-image: url("../img/mencollection.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        position: relative;
+        transition: all .5s !important;
+
+        &:hover .menText {
+            display: block;
+
+        }
+
+        .menText {
+            text-align: center;
+            background: black;
+            width: 9rem;
+            padding: 10px 0rem;
+            border: 2px solid #fff;
+            position: absolute;
+            top: 15rem;
+            left: 11%;
+            display: none;
+
+
+            a {
+                color: #fff;
+                font-size: .8rem;
+            }
+        }
+
+    }
+
+    /*********************Our Service*********************/
+    .ourService {
+        height: 56vh;
+        background: #fff;
+        margin-top: 1rem;
+
+        .title {
+            background: red;
+
+            h3 {
+                margin-left: .6rem;
+                font-size: 1rem;
+                padding: .5rem 0;
+                color: #fff;
+            }
+        }
+
+        .serviceWrapper {
+            ul {
+
+                .servicelist {
+                    margin-left: -2rem;
+                    border-bottom: 1px solid#e2e2e2;
+                    height: 12vh;
+
+
+
+                    .serviceCntentWrapper {
+
+
+                        img {
+                            width: 34%;
+                            max-width: 5rem;
+                            margin-top: -.5rem;
+
+                        }
+
+                        .mainContentWrapper {
+
+                            h6 {
+                                font-size: .7rem;
+                                margin-top: 1rem;
+                            }
+
+
+                            p {
+                                font-size: 0.7rem;
+                                margin-top: -.3rem;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    .border0 {
+        border-bottom: 0px solid !important;
+    }
+
+    /******************Best sell***********************/
+    .bestSellers {
+        height: 58vh;
+        background: #fff;
+        margin-top: 1rem;
+
+        .besttitle {
+            background: red;
+
+
+            h3 {
+                margin-left: .6rem;
+                font-size: 1rem;
+                padding: .5rem 0;
+                color: #fff;
+            }
+        }
+
+        .bestsellwrapper {
+            padding: 0 .5rem;
+
+
+            .list {
+                margin-top: .7rem;
+                margin-left: -2rem;
+                height: 11vh;
+
+                .imgWrapper {
+                    background: #f7f7f7;
+
+
+                    img {
+                        width: 3.5rem;
+                    }
+                }
+
+                .textPrice {
+                    margin-left: .2rem;
+
+                    a {
+                        h6 {
+                            font-size: .7rem;
+                        }
+                    }
+
+                    .stars {
+                        margin-top: -.4rem;
+
+                        i {
+                            font-size: .7rem;
+                            color: #feba29;
+                        }
+                    }
+
+                    .price {
+                        p {
+                            font-size: .9rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .newsletter {
+        height: 45vh;
+        background: #fff;
+        margin-top: 1rem;
+
+        .newstitle {
+            background: red;
+
+            h3 {
+                margin-left: .6rem;
+                font-size: 1rem;
+                padding: .5rem 0;
+                color: #fff;
+            }
+        }
+
+        .newswrapper {
+            margin: 0 .2rem;
+
+            img {
+                width: 6rem;
+                margin-left: 1.4rem;
+            }
+
+            p {
+                padding: 0 .6rem;
+                font-size: .6rem;
+            }
+
+            form {
+                input {
+                    width: 100%;
+                    border: 2px solid #e2e2e2;
+                    padding: .4rem;
+                    font-size: 0.9rem;
+                    text-align: center;
+                }
+
+                button {
+                    color: #fff;
+                    background: #252525 !important;
+                    margin-left: 16%;
+                    border-radius: 5px !important;
+                }
+            }
+        }
+    }
+
+    /****************************exclusive div**********************************/
+    .exclusive {
+        height: 26vh;
+        background: #fff;
+        margin-top: 1rem;
+        padding: 1rem;
+        height: 21vh;
+
+        .excwrapper {
+            position: relative;
+            border: 3px solid #e2e2e2;
+            height: 16vh;
+
+
+            h6 {
+                margin-top: 1.3rem;
+                color: #252525;
+
+                &:after {
+                    content: '';
+                    position: absolute;
+                    top: 45px;
+                    left: 33px;
+                    background: #252525;
+                    width: 55%;
+                    height: 4%;
+
+                }
+            }
+
+            p {
+                font-size: .7em;
+                font-weight: 700;
+                line-height: 1.5rem;
+                color: #252525;
+            }
+
+
+        }
+    }
+}
+
+/*******************************Right site service**************************************/
+.dealDiv {
+    height: 54vh;
+    background: #fff;
+    border: 2px solid #f33535;
+
+    .dealtext {
+        background: red;
+
+        h3 {
+            margin-left: .6rem;
+            font-size: 1rem;
+            padding: .5rem 0;
+            color: #fff;
+        }
+    }
+
+    .dealContentWrapper {
+        padding: 0 0.2rem;
+
+
+
+        .imgwrapper {
+            background: #f7f7f7;
+            height: 19.5vh;
+
+            .new {
+                background-color: black;
+                width: 2.5rem;
+
+                p {
+                    color: #fff;
+                    text-align: center;
+                    font-size: .7rem;
+                }
+            }
+
+            img {
+                width: 52%;
+                margin-top: -1.5rem;
+                margin-left: 24%;
+            }
+
+            .hovereffect {
+                width: 7.5rem;
+                margin: auto;
+                margin-top: -3.5rem;
+
+                .btn {
+                    width: 2rem;
+                    background: #fff !important;
+                    height: 2rem;
+                    border-radius: 5px !important;
+                    margin-left: 0.4rem;
+                    position: relative;
+                    border: 1px solid #d9d9d9;
+
+                    .icon {
+                        margin-top: -7px;
+                        transition: .6s;
+                        position: absolute;
+                        margin-left: -8px;
+
+                    }
+
+                    &:hover {
+                        background: #f33535 !important;
+                        border: #f33535;
+                        color: #fff;
+
+                    }
+
+                }
+            }
+        }
+
+        .priceContentWrapper {
+
+
+            .stars {
+                color: #e8b30d;
+                margin-top: -0.8rem;
+            }
+
+
+        }
+
+
+        .dayCounter {
+
+            width: 82%;
+            margin: auto;
+
+            .day {
+
+
+                #inday {
+                    text-align: center;
+                    width: 153%;
+                    height: 5vh;
+                    background: #f7f7f7 !important;
+                }
+
+
+                p {
+                    font-size: 0.7rem;
+                }
+            }
+
+
+            .hours {
+                margin-left: 12%;
+
+                #inhoure {
+                    text-align: center;
+                    width: 97%;
+                    height: 5vh;
+                    background: #f7f7f7 !important;
+                }
+
+                p {
+                    font-size: 0.7rem;
+                }
+            }
+
+            .minuts {
+                margin-left: 2%;
+
+                #inminuts {
+                    text-align: center;
+                    width: 112%;
+                    height: 5vh;
+                    background: #f7f7f7 !important;
+                }
+
+                p {
+                    font-size: 0.7rem;
+                }
+            }
+
+            .second {
+                margin-left: 5%;
+
+                #insecond {
+                    text-align: center;
+                    width: 153%;
+                    height: 5vh;
+                    background: #f7f7f7 !important;
+                }
+
+                p {
+                    font-size: 0.7rem;
+                }
+            }
+        }
+    }
+}
+
+/*******************Dealhover css**********************/
+.btn1 {
+    opacity: 0;
+    transition: .9s;
+    transform: translatey(-15px);
+}
+
+.btn2 {
+    opacity: 0;
+    transition: .6s;
+    transform: translatey(-15px);
+
+}
+
+
+.btn3 {
+    opacity: 0;
+    transition: .3s;
+    transform: translatey(-15px);
+}
+
+.dealDiv:hover .btn {
+    opacity: 1;
+    transform: translatey(10px);
+}
+
+/*******************Dealhover css end**********************/
+/************************testmonial slider css*********************/
+
+/************************testmonial slider css end*********************/
+/*********************fashion bag css**************************/
+.fashionbag {
+    background: #fff;
+    margin: 1.5rem 0;
+    height: 42vh;
+    background: #e3dacb;
+
+    .fashiontextWrapper {
+
+        h3 {
+            font-size: 1rem;
+        }
+
+        p {
+            font-size: .8rem;
+        }
+
+        a {
+            padding: 0.2rem .5rem;
+            border: 1px solid black;
+            font-size: .8rem;
+            color: black;
+        }
+
+        img {
+            width: 60%;
+        }
+    }
+}
+
+/*********************fashion bag end**************************/
+/*******************************latest product*************************/
+.latestproduct {
+    height: 58vh;
+    background: #fff;
+    margin-top: 1rem;
+
+    .latestttitle {
+        background: red;
+
+
+        h3 {
+            margin-left: .6rem;
+            font-size: 1rem;
+            padding: .5rem 0;
+            color: #fff;
+        }
+    }
+
+    .latestwrapper {
+        padding: 0 .5rem;
+
+
+        .list {
+            margin-top: .7rem;
+            margin-left: -2rem;
+            height: 11vh;
+
+            .imgWrapper {
+                background: #f7f7f7;
+
+
+                img {
+                    width: 3.5rem;
+                }
+            }
+
+            .textPrice {
+                margin-left: .2rem;
+
+                a {
+                    h6 {
+                        font-size: .7rem;
+                    }
+                }
+
+                .stars {
+                    margin-top: -.4rem;
+
+                    i {
+                        font-size: .7rem;
+                        color: #feba29;
+                    }
+                }
+
+                .price {
+                    p {
+                        font-size: .9rem;
+                    }
+                }
             }
         }
     }
