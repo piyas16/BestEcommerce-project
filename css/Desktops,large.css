@@ -7,6 +7,10 @@
     .carousel-item .slidertext {
         margin-left: 4rem !important;
     }
+
+    .textPrice .price p del {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 1025px) and (max-width:1080px) {
@@ -15,4 +19,30 @@
         font-size: 0.7rem;
 
     }
+
+    .dealDiv .dealContentWrapper .dayCounter {
+        width: 95%;
+
+    }
+
+    .textPrice .stars i {
+        font-size: .6rem !important;
+    }
+
+    .textPrice .price p {
+        font-size: .9rem;
+    }
+
+    .textPrice .price p del {
+        display: none;
+    }
+
+    .dealDiv .dealtext h3 {
+        font-size: .8rem;
+    }
+
+    .priceContentWrapper p {
+        font-size: .9rem;
+    }
+
 }

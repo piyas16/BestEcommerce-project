@@ -23,6 +23,7 @@ header {
 
                     a {
                         color: #fff !important;
+                        font-size: .8rem;
 
                     }
 
@@ -47,11 +48,18 @@ header {
         .ContentWrapper {
             margin-right: 13px;
 
+            .currency {
+                font-size: .8rem;
+            }
+
             .language {
+                font-size: .8rem;
                 position: relative;
+
             }
 
             .wishlist {
+                font-size: .8rem;
                 position: relative;
             }
 
@@ -89,6 +97,7 @@ select {
     border: 0px;
     background-color: #252525;
     color: #fff;
+
 }
 
 /*********sub menu**************/
@@ -177,18 +186,21 @@ button {
 ***************************** Section area start********************
 ********************************************************************/
 #topSection {
-    height: 84vh;
+    height: 72vh;
 
     background: #f2f3f7;
 
     .catagoriMenu {
+        background: #fff;
+        height: 67.7vh;
+
         ul {
             padding-left: 0rem;
 
             li {
                 background-color: #fff;
-                padding: .7rem 0rem;
                 position: relative;
+
 
 
 
@@ -199,7 +211,7 @@ button {
 
                 h3 {
 
-                    padding: .1rem .8rem;
+                    padding: .5rem .7rem !important;
                     font-size: 1rem;
                     color: #fff;
                 }
@@ -215,7 +227,7 @@ button {
                         i {
                             font-size: 0.8rem;
                             position: absolute !important;
-                            top: 19px;
+                            top: 17px;
                             right: 0.6rem;
                             color: #9a9292
                         }
@@ -231,13 +243,11 @@ button {
 
     /****************slider css***********************/
     .bg-color {
-
-
         overflow: hidden !important;
 
         #carouselExampleControls {
             position: relative;
-            height: 79.5vh !important;
+            height: 67.5vh !important;
             background-color: #f8ddca;
 
             .carousel-inner {
@@ -245,7 +255,7 @@ button {
 
                 .carousel-item {
                     .slidertext {
-                        width: 12rem;
+                        width: 13rem;
                         margin-left: 5rem;
                         margin-bottom: 6rem;
 
@@ -261,6 +271,12 @@ button {
                                 color: #f33535;
 
                             }
+                        }
+
+                        a {
+                            text-align: center;
+                            width: 8rem;
+                            background: #f33535;
                         }
 
                     }
@@ -279,13 +295,13 @@ button {
                     }
 
                     .watchimg {
-                        width: 69% !important;
+                        width: 58% !important;
                         margin-left: 5rem;
                         margin-top: 4rem;
                     }
 
                     img {
-                        width: 100%;
+                        width: 74%;
                         margin-left: 0rem;
                     }
                 }
@@ -307,10 +323,9 @@ button {
     .watchCol {
         height: 65vh;
 
-
         .watch-div {
             background-color: #95d2f1;
-            height: 58%;
+            height: 49%;
             position: relative;
 
             .watch-content {
@@ -332,7 +347,7 @@ button {
                 }
 
                 img {
-                    width: 84%;
+                    width: 69%;
                     position: absolute;
                     top: 4.3rem;
                     right: 0rem;
@@ -367,16 +382,18 @@ button {
     padding-bottom: 4rem;
 
     .menCollection {
-        height: 52vh;
+        height: 50vh;
         background-image: url("../img/mencollection.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100%;
         position: relative;
-        transition: all .5s !important;
+        transition: all .8s !important;
+        margin-top: -1rem;
+
 
         &:hover .menText {
-            display: block;
+            opacity: 1;
 
         }
 
@@ -387,9 +404,9 @@ button {
             padding: 10px 0rem;
             border: 2px solid #fff;
             position: absolute;
-            top: 15rem;
-            left: 11%;
-            display: none;
+            top: 13rem;
+            left: 6%;
+            opacity: 0;
 
 
             a {
@@ -421,7 +438,7 @@ button {
             ul {
 
                 .servicelist {
-                    margin-left: -2rem;
+                    margin-left: -2.3rem;
                     border-bottom: 1px solid#e2e2e2;
                     height: 12vh;
 
@@ -446,7 +463,7 @@ button {
 
 
                             p {
-                                font-size: 0.7rem;
+                                font-size: 0.6rem;
                                 margin-top: -.3rem;
                             }
                         }
@@ -467,7 +484,7 @@ button {
     .bestSellers {
         height: 58vh;
         background: #fff;
-        margin-top: 1rem;
+        margin-top: 2rem;
 
         .besttitle {
             background: red;
@@ -504,7 +521,7 @@ button {
 
                     a {
                         h6 {
-                            font-size: .7rem;
+                            font-size: .6rem;
                         }
                     }
 
@@ -527,13 +544,15 @@ button {
         }
     }
 
+    /**************newsletter*******************/
     .newsletter {
-        height: 45vh;
+        height: 47vh;
         background: #fff;
-        margin-top: 1rem;
+        margin-top: 2rem;
 
         .newstitle {
             background: red;
+
 
             h3 {
                 margin-left: .6rem;
@@ -582,6 +601,7 @@ button {
         margin-top: 1rem;
         padding: 1rem;
         height: 21vh;
+        margin-top: 2rem;
 
         .excwrapper {
             position: relative;
@@ -616,6 +636,237 @@ button {
         }
     }
 }
+
+/*************************************************************************************
+*********************************Bye Featured Product Css**************************************
+**************************************************************************************/
+/************************ship css**********************/
+.shipWrapper {
+    background: #000;
+
+    .alltextWrapper {
+
+        width: 98%;
+        margin: auto;
+        padding: .6rem 0;
+
+
+        .colText {
+            p {
+                color: #fff;
+                font-size: .7rem;
+                margin: .4rem 0;
+
+                span {
+                    color: #feba29;
+                }
+            }
+
+            .shopwrapper {
+                width: 6rem;
+                background: #f33535;
+                border-radius: 5px;
+                margin: 0 auto;
+
+                a {
+                    text-align: center;
+                    font-weight: 600;
+                    font-size: .8rem;
+                }
+            }
+        }
+    }
+
+}
+
+/***************************Featured css***********************************/
+.featuredDiv {
+    margin-top: 2rem;
+    background: #fff;
+
+    .featuredTitleWrapper {
+        background: #fff;
+        height: 3rem;
+        border-left: 2px solid red;
+        position: relative;
+        margin-bottom: .6rem;
+
+        h1 {
+            font-size: .9rem;
+            padding: 1rem .4rem;
+        }
+
+        #buttonWrapper {
+            position: relative;
+            width: 2rem;
+            margin-left: 93%;
+            margin-top: -1rem;
+
+            button {
+                position: absolute;
+                top: -28px;
+                width: 49%;
+                height: 1.5rem;
+                margin: 0 -.3rem;
+                border: 1px solid #000;
+                border-radius: 3px !important;
+                background: #000 !important;
+                color: #000 !important;
+            }
+        }
+    }
+
+    .row-wrapper {
+        background: #fff;
+        height: 78vh;
+        padding: 0 .6rem;
+
+
+        .cardWrapper {
+
+            height: 39vh;
+
+            .cardimgWrapper {
+                background: #f7f7f7;
+                height: 9.3rem;
+
+                .new {
+                    background: #000;
+                    width: 2.5rem;
+                    height: 1.2rem;
+
+                    p {
+                        color: #fff;
+                        text-align: center;
+                        font-size: .8rem;
+                    }
+                }
+
+                img {
+                    width: 58%;
+                    margin-left: 22%;
+                }
+            }
+
+            .cardtextWrapper {
+                margin-top: .5rem;
+
+                p {
+                    font-size: .8rem;
+                }
+
+                .stars {
+                    color: #feba29;
+                    font-size: .7rem;
+                    margin-top: -0.7rem;
+
+                }
+
+                p {
+                    font-size: .8rem;
+                    margin-top: .2rem;
+
+                }
+            }
+        }
+    }
+}
+
+/****************************Best laptop div css*************************************/
+.bestLaptop {
+    margin-top: 2rem;
+
+    .laptopWrapper {
+        .laptop {
+            background: #f4ad31;
+            height: 29vh;
+            padding: 0 .5rem;
+
+            .laptopTextWrapper {
+                margin: 2.7rem auto;
+
+                h3 {
+                    font-size: 1rem;
+                    color: #fff;
+                    line-height: 1.5rem;
+                }
+
+                .buydiv {
+                    background: #f33535;
+                    width: 8rem;
+                    border-radius: 5px;
+
+
+                    a {
+                        font-size: .8rem;
+                        color: #fff;
+                        text-align: center;
+                        font-weight: 700;
+                    }
+                }
+
+                p {
+                    margin-top: .7rem;
+                    color: #fff;
+                    font-size: .7rem;
+                }
+            }
+
+            img {
+
+                width: 11rem;
+                height: 9rem;
+                margin-top: 1rem;
+            }
+        }
+
+        .tablet {
+            background: #f1c12f;
+            padding: 0 .5rem;
+            height: 29vh;
+
+            .tabletTextWrapper {
+                margin: 2.7rem auto;
+
+                h3 {
+                    font-size: 1rem;
+                    color: #fff;
+                    line-height: 1.5rem;
+                }
+
+                .buydiv {
+                    background: #f33535;
+                    width: 8rem;
+                    border-radius: 5px;
+
+                    a {
+                        font-size: .8rem;
+                        color: #fff;
+                        text-align: center;
+                        font-weight: 700;
+                    }
+                }
+
+                p {
+                    color: #fff;
+                    font-size: .7rem;
+                    margin-top: ,7rem;
+                }
+            }
+
+            img {
+                width: 11rem;
+                height: 9rem;
+                margin-top: 1rem;
+            }
+        }
+    }
+}
+
+/****************************Best laptop div end*************************************/
+
+
+/*********************************Bye Product Css End***********************************/
 
 /*******************************Right site service**************************************/
 .dealDiv {
@@ -717,6 +968,7 @@ button {
                     text-align: center;
                     width: 153%;
                     height: 5vh;
+                    border-radius: 5px;
                     background: #f7f7f7 !important;
                 }
 
@@ -803,13 +1055,86 @@ button {
 
 /*******************Dealhover css end**********************/
 /************************testmonial slider css*********************/
+.testImonialDiv {
+    background: #fff;
+    height: 55vh;
+    margin-top: 2rem;
+
+    .testTitleDiv {
+        background: red;
+
+        h3 {
+            margin-left: .6rem;
+            font-size: 1rem;
+            padding: .5rem 0;
+            color: #fff;
+        }
+
+
+    }
+
+    .testmonialContentWrapper {
+        img {
+            width: 5rem !important;
+            margin-left: 2.5rem;
+        }
+
+        p {
+            font-size: .9rem;
+            color: #757575;
+        }
+
+        .imgTextWrapper {
+            margin-top: 1.5rem;
+
+            img {
+                width: 4rem !important;
+                margin-left: 0.5rem;
+                height: 4rem;
+            }
+
+            .textWrapper {
+                margin-top: .7rem;
+
+                h4 {
+                    font-size: .7rem;
+                }
+
+                p {
+                    font-size: .6rem;
+                    line-height: .3rem;
+                    color: #757575;
+                }
+            }
+        }
+    }
+}
+
+.testmonialContentWrapper .carousel-control-prev {
+    display: none;
+}
+
+.testmonialContentWrapper .carousel-control-next {
+    display: none;
+
+}
+
+.carousel-indicators {
+    top: 15.3rem;
+}
+
+.carousel-indicators button {
+    width: 9px !important;
+    height: 10px !important;
+    border-radius: 100% !important;
+}
 
 /************************testmonial slider css end*********************/
 /*********************fashion bag css**************************/
 .fashionbag {
     background: #fff;
-    margin: 1.5rem 0;
-    height: 42vh;
+    margin-top: 2rem;
+    height: 47vh;
     background: #e3dacb;
 
     .fashiontextWrapper {
@@ -830,7 +1155,7 @@ button {
         }
 
         img {
-            width: 60%;
+            width: 75%;
         }
     }
 }
@@ -840,7 +1165,7 @@ button {
 .latestproduct {
     height: 58vh;
     background: #fff;
-    margin-top: 1rem;
+    margin-top: 2rem;
 
     .latestttitle {
         background: red;
@@ -877,7 +1202,7 @@ button {
 
                 a {
                     h6 {
-                        font-size: .7rem;
+                        font-size: .6rem;
                     }
                 }
 

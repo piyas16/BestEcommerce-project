@@ -1,10 +1,22 @@
 @media only screen and (min-width: 481px) and (max-width:768px) {
+    #topSection {
+        height: 140vh;
+        background: #f2f3f7;
+    }
+
+    #topSection .watchCol .watch-div .watch-content img {
+        width: 35% !important;
+        max-width: 10rem;
+    }
+
     .smallDNone {
         display: none;
     }
-    #categorie{
+
+    #categorie {
         display: none !important;
     }
+
     #topSection .bg-color {
         display: none;
     }

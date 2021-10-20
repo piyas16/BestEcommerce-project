@@ -1,8 +1,4 @@
 @media only screen and (min-width: 1201px) {
-    #topSection {
-        height: 84vh !important;
-        
-    }
 
     #carouselExampleControls {
 
@@ -12,5 +8,13 @@
 
     .imgtop {
         top: 3.2rem !important;
+    }
+
+    .bestsellwrapper .list .textPrice .price p {
+        font-size: .7rem !important;
+    }
+
+    .latestproduct .latestwrapper .list .textPrice .price p {
+        font-size: .7rem;
     }
 }

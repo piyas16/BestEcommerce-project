@@ -1,4 +1,14 @@
 @media only screen and (min-width: 320px) and (max-width:480px) {
+    #topSection {
+        height: 140vh;
+        background: #f2f3f7;
+    }
+
+    #topSection .watchCol .watch-div .watch-content img {
+        width: 55% !important;
+        max-width: 10rem;
+    }
+
     .smallDNone {
         display: none;
     }

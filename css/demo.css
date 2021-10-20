@@ -51,6 +51,7 @@ header {
 
 .top-menu .coustomer-support .ContentWrapper ul li a {
   color: #fff !important;
+  font-size: .8rem;
 }
 
 .top-menu .coustomer-support .ContentWrapper ul li .orsign:before {
@@ -67,11 +68,17 @@ header {
   margin-right: 13px;
 }
 
+.top-menu .option-div .ContentWrapper .currency {
+  font-size: .8rem;
+}
+
 .top-menu .option-div .ContentWrapper .language {
+  font-size: .8rem;
   position: relative;
 }
 
 .top-menu .option-div .ContentWrapper .wishlist {
+  font-size: .8rem;
   position: relative;
 }
 
@@ -172,10 +179,15 @@ button .searchbtn {
 ***************************** Section area start********************
 ********************************************************************/
 #topSection {
-  height: 84vh;
+  height: 72vh;
   background: #f2f3f7;
   /****************slider css***********************/
   /*********************watch section***********************************/
+}
+
+#topSection .catagoriMenu {
+  background: #fff;
+  height: 67.7vh;
 }
 
 #topSection .catagoriMenu ul {
@@ -184,7 +196,6 @@ button .searchbtn {
 
 #topSection .catagoriMenu ul li {
   background-color: #fff;
-  padding: .7rem 0rem;
   position: relative;
 }
 
@@ -194,7 +205,7 @@ button .searchbtn {
 }
 
 #topSection .catagoriMenu ul li h3 {
-  padding: .1rem .8rem;
+  padding: .5rem .7rem !important;
   font-size: 1rem;
   color: #fff;
 }
@@ -208,7 +219,7 @@ button .searchbtn {
 #topSection .catagoriMenu ul li a span i {
   font-size: 0.8rem;
   position: absolute !important;
-  top: 19px;
+  top: 17px;
   right: 0.6rem;
   color: #9a9292;
 }
@@ -223,12 +234,12 @@ button .searchbtn {
 
 #topSection .bg-color #carouselExampleControls {
   position: relative;
-  height: 79.5vh !important;
+  height: 67.5vh !important;
   background-color: #f8ddca;
 }
 
 #topSection .bg-color #carouselExampleControls .carousel-inner .carousel-item .slidertext {
-  width: 12rem;
+  width: 13rem;
   margin-left: 5rem;
   margin-bottom: 6rem;
 }
@@ -246,6 +257,12 @@ button .searchbtn {
   color: #f33535;
 }
 
+#topSection .bg-color #carouselExampleControls .carousel-inner .carousel-item .slidertext a {
+  text-align: center;
+  width: 8rem;
+  background: #f33535;
+}
+
 #topSection .bg-color #carouselExampleControls .carousel-inner .img-wrapper {
   width: 65%;
   height: 79.5vh;
@@ -258,13 +275,13 @@ button .searchbtn {
 }
 
 #topSection .bg-color #carouselExampleControls .carousel-inner .img-wrapper .watchimg {
-  width: 69% !important;
+  width: 58% !important;
   margin-left: 5rem;
   margin-top: 4rem;
 }
 
 #topSection .bg-color #carouselExampleControls .carousel-inner .img-wrapper img {
-  width: 100%;
+  width: 74%;
   margin-left: 0rem;
 }
 
@@ -282,7 +299,7 @@ button .searchbtn {
 
 #topSection .watchCol .watch-div {
   background-color: #95d2f1;
-  height: 58%;
+  height: 49%;
   position: relative;
 }
 
@@ -303,7 +320,7 @@ button .searchbtn {
 }
 
 #topSection .watchCol .watch-div .watch-content img {
-  width: 84%;
+  width: 69%;
   position: absolute;
   top: 4.3rem;
   right: 0rem;
@@ -329,21 +346,23 @@ button .searchbtn {
   padding-bottom: 4rem;
   /*********************Our Service*********************/
   /******************Best sell***********************/
+  /**************newsletter*******************/
   /****************************exclusive div**********************************/
 }
 
 #shopNow .menCollection {
-  height: 52vh;
+  height: 50vh;
   background-image: url("../img/mencollection.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
   position: relative;
-  transition: all .5s !important;
+  transition: all .8s !important;
+  margin-top: -1rem;
 }
 
 #shopNow .menCollection:hover .menText {
-  display: block;
+  opacity: 1;
 }
 
 #shopNow .menCollection .menText {
@@ -353,9 +372,9 @@ button .searchbtn {
   padding: 10px 0rem;
   border: 2px solid #fff;
   position: absolute;
-  top: 15rem;
-  left: 11%;
-  display: none;
+  top: 13rem;
+  left: 6%;
+  opacity: 0;
 }
 
 #shopNow .menCollection .menText a {
@@ -381,7 +400,7 @@ button .searchbtn {
 }
 
 #shopNow .ourService .serviceWrapper ul .servicelist {
-  margin-left: -2rem;
+  margin-left: -2.3rem;
   border-bottom: 1px solid #e2e2e2;
   height: 12vh;
 }
@@ -398,7 +417,7 @@ button .searchbtn {
 }
 
 #shopNow .ourService .serviceWrapper ul .servicelist .serviceCntentWrapper .mainContentWrapper p {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   margin-top: -.3rem;
 }
 
@@ -409,7 +428,7 @@ button .searchbtn {
 #shopNow .bestSellers {
   height: 58vh;
   background: #fff;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 #shopNow .bestSellers .besttitle {
@@ -446,7 +465,7 @@ button .searchbtn {
 }
 
 #shopNow .bestSellers .bestsellwrapper .list .textPrice a h6 {
-  font-size: .7rem;
+  font-size: .6rem;
 }
 
 #shopNow .bestSellers .bestsellwrapper .list .textPrice .stars {
@@ -463,9 +482,9 @@ button .searchbtn {
 }
 
 #shopNow .newsletter {
-  height: 45vh;
+  height: 47vh;
   background: #fff;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 #shopNow .newsletter .newstitle {
@@ -514,6 +533,7 @@ button .searchbtn {
   margin-top: 1rem;
   padding: 1rem;
   height: 21vh;
+  margin-top: 2rem;
 }
 
 #shopNow .exclusive .excwrapper {
@@ -544,6 +564,221 @@ button .searchbtn {
   color: #252525;
 }
 
+/*************************************************************************************
+*********************************Bye Featured Product Css**************************************
+**************************************************************************************/
+/************************ship css**********************/
+.shipWrapper {
+  background: #000;
+}
+
+.shipWrapper .alltextWrapper {
+  width: 98%;
+  margin: auto;
+  padding: .6rem 0;
+}
+
+.shipWrapper .alltextWrapper .colText p {
+  color: #fff;
+  font-size: .7rem;
+  margin: .4rem 0;
+}
+
+.shipWrapper .alltextWrapper .colText p span {
+  color: #feba29;
+}
+
+.shipWrapper .alltextWrapper .colText .shopwrapper {
+  width: 6rem;
+  background: #f33535;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.shipWrapper .alltextWrapper .colText .shopwrapper a {
+  text-align: center;
+  font-weight: 600;
+  font-size: .8rem;
+}
+
+/***************************Featured css***********************************/
+.featuredDiv {
+  margin-top: 2rem;
+  background: #fff;
+}
+
+.featuredDiv .featuredTitleWrapper {
+  background: #fff;
+  height: 3rem;
+  border-left: 2px solid red;
+  position: relative;
+  margin-bottom: .6rem;
+}
+
+.featuredDiv .featuredTitleWrapper h1 {
+  font-size: .9rem;
+  padding: 1rem .4rem;
+}
+
+.featuredDiv .featuredTitleWrapper #buttonWrapper {
+  position: relative;
+  width: 2rem;
+  margin-left: 93%;
+  margin-top: -1rem;
+}
+
+.featuredDiv .featuredTitleWrapper #buttonWrapper button {
+  position: absolute;
+  top: -28px;
+  width: 49%;
+  height: 1.5rem;
+  margin: 0 -.3rem;
+  border: 1px solid #000;
+  border-radius: 3px !important;
+  background: #000 !important;
+  color: #000 !important;
+}
+
+.featuredDiv .row-wrapper {
+  background: #fff;
+  height: 78vh;
+  padding: 0 .6rem;
+}
+
+.featuredDiv .row-wrapper .cardWrapper {
+  height: 39vh;
+}
+
+.featuredDiv .row-wrapper .cardWrapper .cardimgWrapper {
+  background: #f7f7f7;
+  height: 9.3rem;
+}
+
+.featuredDiv .row-wrapper .cardWrapper .cardimgWrapper .new {
+  background: #000;
+  width: 2.5rem;
+  height: 1.2rem;
+}
+
+.featuredDiv .row-wrapper .cardWrapper .cardimgWrapper .new p {
+  color: #fff;
+  text-align: center;
+  font-size: .8rem;
+}
+
+.featuredDiv .row-wrapper .cardWrapper .cardimgWrapper img {
+  width: 58%;
+  margin-left: 22%;
+}
+
+.featuredDiv .row-wrapper .cardWrapper .cardtextWrapper {
+  margin-top: .5rem;
+}
+
+.featuredDiv .row-wrapper .cardWrapper .cardtextWrapper p {
+  font-size: .8rem;
+}
+
+.featuredDiv .row-wrapper .cardWrapper .cardtextWrapper .stars {
+  color: #feba29;
+  font-size: .7rem;
+  margin-top: -0.7rem;
+}
+
+.featuredDiv .row-wrapper .cardWrapper .cardtextWrapper p {
+  font-size: .8rem;
+  margin-top: .2rem;
+}
+
+/****************************Best laptop div css*************************************/
+.bestLaptop {
+  margin-top: 2rem;
+}
+
+.bestLaptop .laptopWrapper .laptop {
+  background: #f4ad31;
+  height: 29vh;
+  padding: 0 .5rem;
+}
+
+.bestLaptop .laptopWrapper .laptop .laptopTextWrapper {
+  margin: 2.7rem auto;
+}
+
+.bestLaptop .laptopWrapper .laptop .laptopTextWrapper h3 {
+  font-size: 1rem;
+  color: #fff;
+  line-height: 1.5rem;
+}
+
+.bestLaptop .laptopWrapper .laptop .laptopTextWrapper .buydiv {
+  background: #f33535;
+  width: 8rem;
+  border-radius: 5px;
+}
+
+.bestLaptop .laptopWrapper .laptop .laptopTextWrapper .buydiv a {
+  font-size: .8rem;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+}
+
+.bestLaptop .laptopWrapper .laptop .laptopTextWrapper p {
+  margin-top: 1rem;
+  color: #fff;
+  font-size: .7rem;
+}
+
+.bestLaptop .laptopWrapper .laptop img {
+  width: 11rem;
+  height: 9rem;
+  margin-top: 1rem;
+}
+
+.bestLaptop .laptopWrapper .tablet {
+  background: #f1c12f;
+  padding: 0 .5rem;
+  height: 29vh;
+}
+
+.bestLaptop .laptopWrapper .tablet .tabletTextWrapper {
+  margin: 2.7rem auto;
+}
+
+.bestLaptop .laptopWrapper .tablet .tabletTextWrapper h3 {
+  font-size: 1rem;
+  color: #fff;
+  line-height: 1.5rem;
+}
+
+.bestLaptop .laptopWrapper .tablet .tabletTextWrapper .buydiv {
+  background: #f33535;
+  width: 8rem;
+  border-radius: 5px;
+}
+
+.bestLaptop .laptopWrapper .tablet .tabletTextWrapper .buydiv a {
+  font-size: .8rem;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+}
+
+.bestLaptop .laptopWrapper .tablet .tabletTextWrapper p {
+  color: #fff;
+  font-size: .7rem;
+  margin-top: 1rem;
+}
+
+.bestLaptop .laptopWrapper .tablet img {
+  width: 11rem;
+  height: 9rem;
+  margin-top: 1rem;
+}
+
+/****************************Best laptop div end*************************************/
+/*********************************Bye Product Css End***********************************/
 /*******************************Right site service**************************************/
 .dealDiv {
   height: 54vh;
@@ -631,6 +866,7 @@ button .searchbtn {
   text-align: center;
   width: 153%;
   height: 5vh;
+  border-radius: 5px;
   background: #f7f7f7 !important;
 }
 
@@ -709,12 +945,81 @@ button .searchbtn {
 
 /*******************Dealhover css end**********************/
 /************************testmonial slider css*********************/
+.testImonialDiv {
+  background: #fff;
+  height: 55vh;
+  margin-top: 2rem;
+}
+
+.testImonialDiv .testTitleDiv {
+  background: red;
+}
+
+.testImonialDiv .testTitleDiv h3 {
+  margin-left: .6rem;
+  font-size: 1rem;
+  padding: .5rem 0;
+  color: #fff;
+}
+
+.testImonialDiv .testmonialContentWrapper img {
+  width: 5rem !important;
+  margin-left: 2.5rem;
+}
+
+.testImonialDiv .testmonialContentWrapper p {
+  font-size: .9rem;
+  color: #757575;
+}
+
+.testImonialDiv .testmonialContentWrapper .imgTextWrapper {
+  margin-top: 1.5rem;
+}
+
+.testImonialDiv .testmonialContentWrapper .imgTextWrapper img {
+  width: 4rem !important;
+  margin-left: 0.5rem;
+  height: 4rem;
+}
+
+.testImonialDiv .testmonialContentWrapper .imgTextWrapper .textWrapper {
+  margin-top: .7rem;
+}
+
+.testImonialDiv .testmonialContentWrapper .imgTextWrapper .textWrapper h4 {
+  font-size: .7rem;
+}
+
+.testImonialDiv .testmonialContentWrapper .imgTextWrapper .textWrapper p {
+  font-size: .6rem;
+  line-height: .3rem;
+  color: #757575;
+}
+
+.testmonialContentWrapper .carousel-control-prev {
+  display: none;
+}
+
+.testmonialContentWrapper .carousel-control-next {
+  display: none;
+}
+
+.carousel-indicators {
+  top: 15.3rem;
+}
+
+.carousel-indicators button {
+  width: 9px !important;
+  height: 10px !important;
+  border-radius: 100% !important;
+}
+
 /************************testmonial slider css end*********************/
 /*********************fashion bag css**************************/
 .fashionbag {
   background: #fff;
-  margin: 1.5rem 0;
-  height: 42vh;
+  margin-top: 2rem;
+  height: 47vh;
   background: #e3dacb;
 }
 
@@ -734,7 +1039,7 @@ button .searchbtn {
 }
 
 .fashionbag .fashiontextWrapper img {
-  width: 60%;
+  width: 75%;
 }
 
 /*********************fashion bag end**************************/
@@ -742,7 +1047,7 @@ button .searchbtn {
 .latestproduct {
   height: 58vh;
   background: #fff;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .latestproduct .latestttitle {
@@ -779,7 +1084,7 @@ button .searchbtn {
 }
 
 .latestproduct .latestwrapper .list .textPrice a h6 {
-  font-size: .7rem;
+  font-size: .6rem;
 }
 
 .latestproduct .latestwrapper .list .textPrice .stars {
