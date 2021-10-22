@@ -14,7 +14,7 @@ h4,
 h5,
 h6,
 p {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 500;
 }
 
@@ -36,21 +36,26 @@ header {
 .top-menu {
   border-bottom: 1px solid #323232;
 }
+
 .top-menu .coustomer-support .ContentWrapper {
-  font-size: 0.9rem;
+  font-size: .9rem;
 }
+
 .top-menu .coustomer-support .ContentWrapper ul {
   margin-left: -16px !important;
 }
+
 .top-menu .coustomer-support .ContentWrapper ul li {
   position: relative;
 }
+
 .top-menu .coustomer-support .ContentWrapper ul li a {
   color: #fff !important;
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
+
 .top-menu .coustomer-support .ContentWrapper ul li .orsign:before {
-  content: "";
+  content: '';
   background-color: #323232;
   position: absolute;
   top: 0;
@@ -58,23 +63,27 @@ header {
   width: 3px;
   height: 24px;
 }
+
 .top-menu .option-div .ContentWrapper {
   margin-right: 13px;
 }
+
 .top-menu .option-div .ContentWrapper .currency {
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
+
 .top-menu .option-div .ContentWrapper .language {
-  font-size: 0.8rem;
+  font-size: .8rem;
   position: relative;
 }
+
 .top-menu .option-div .ContentWrapper .wishlist {
-  font-size: 0.8rem;
+  font-size: .8rem;
   position: relative;
 }
 
 .language:before {
-  content: "";
+  content: '';
   background-color: #323232;
   position: absolute;
   top: 0;
@@ -84,7 +93,7 @@ header {
 }
 
 .wishlist:before {
-  content: "";
+  content: '';
   background-color: #323232;
   position: absolute;
   top: 16;
@@ -94,7 +103,7 @@ header {
 }
 
 .m-right {
-  margin-right: 0.2rem;
+  margin-right: .2rem;
 }
 
 select {
@@ -118,6 +127,7 @@ button {
   border-top-left-radius: 0px !important;
   border-bottom-left-radius: 0px !important;
 }
+
 button .searchbtn {
   color: #fff;
 }
@@ -128,12 +138,14 @@ button .searchbtn {
   border: 1px solid #fff;
   border-radius: 100%;
 }
+
 .shop-wrapper .shop-bag i {
   margin-left: 4px;
   position: relative;
 }
+
 .shop-wrapper .shop-bag :after {
-  content: "C";
+  content: 'C';
   position: absolute;
   background-color: #f33535;
   top: -1rem;
@@ -142,6 +154,7 @@ button .searchbtn {
   width: 1rem;
   height: 1rem;
 }
+
 .shop-wrapper .mycart p span {
   color: #f33535;
 }
@@ -157,6 +170,7 @@ button .searchbtn {
   background-color: #e8b30d;
   border-radius: 5px;
 }
+
 .userAccount .dropdown #navbarDropdown {
   color: #fff;
 }
@@ -170,31 +184,38 @@ button .searchbtn {
   /****************slider css***********************/
   /*********************watch section***********************************/
 }
+
 #topSection .catagoriMenu {
   background: #fff;
   height: 67.7vh;
 }
+
 #topSection .catagoriMenu ul {
   padding-left: 0rem;
 }
+
 #topSection .catagoriMenu ul li {
   background-color: #fff;
   position: relative;
 }
+
 #topSection .catagoriMenu ul li:hover {
   background-color: #f7f7f7;
   border-left: 2px solid #f33535;
 }
+
 #topSection .catagoriMenu ul li h3 {
-  padding: 0.5rem 0.7rem !important;
+  padding: .5rem .7rem !important;
   font-size: 1rem;
   color: #fff;
 }
+
 #topSection .catagoriMenu ul li a {
   padding: 0.1rem 0.8rem;
   font-size: 0.8rem;
   color: #807676;
 }
+
 #topSection .catagoriMenu ul li a span i {
   font-size: 0.8rem;
   position: absolute !important;
@@ -202,55 +223,68 @@ button .searchbtn {
   right: 0.6rem;
   color: #9a9292;
 }
+
 #topSection .background-red {
   background: #f33535 !important;
 }
+
 #topSection .bg-color {
   overflow: hidden !important;
 }
+
 #topSection .bg-color #carouselExampleControls {
   position: relative;
   height: 67.5vh !important;
   background-color: #f8ddca;
 }
+
 #topSection .bg-color #carouselExampleControls .carousel-inner .carousel-item .slidertext {
   width: 13rem;
   margin-left: 5rem;
   margin-bottom: 6rem;
 }
+
 #topSection .bg-color #carouselExampleControls .carousel-inner .carousel-item .slidertext h2 {
   margin-bottom: 2rem;
 }
+
 #topSection .bg-color #carouselExampleControls .carousel-inner .carousel-item .slidertext p {
-  line-height: 0.6rem;
+  line-height: .6rem;
 }
+
 #topSection .bg-color #carouselExampleControls .carousel-inner .carousel-item .slidertext p span {
   font-size: 1.6rem;
   color: #f33535;
 }
+
 #topSection .bg-color #carouselExampleControls .carousel-inner .carousel-item .slidertext a {
   text-align: center;
   width: 8rem;
   background: #f33535;
 }
+
 #topSection .bg-color #carouselExampleControls .carousel-inner .img-wrapper {
   width: 65%;
   height: 79.5vh;
 }
+
 #topSection .bg-color #carouselExampleControls .carousel-inner .img-wrapper .schoolbag {
   width: 40% !important;
   margin-left: 14rem;
   margin-top: 5rem;
 }
+
 #topSection .bg-color #carouselExampleControls .carousel-inner .img-wrapper .watchimg {
   width: 58% !important;
   margin-left: 5rem;
   margin-top: 4rem;
 }
+
 #topSection .bg-color #carouselExampleControls .carousel-inner .img-wrapper img {
   width: 74%;
   margin-left: 0rem;
 }
+
 #topSection .bg-color #carouselExampleControls button {
   position: absolute !important;
   width: 28px !important;
@@ -258,19 +292,23 @@ button .searchbtn {
   top: 44%;
   border-radius: 5px !important;
 }
+
 #topSection .watchCol {
   height: 65vh;
 }
+
 #topSection .watchCol .watch-div {
   background-color: #95d2f1;
   height: 49%;
   position: relative;
 }
+
 #topSection .watchCol .watch-div .watch-content h4 {
   position: relative;
-  margin-left: 0.6rem;
+  margin-left: .6rem;
   font-size: 1.3rem;
 }
+
 #topSection .watchCol .watch-div .watch-content h4:after {
   content: "";
   position: absolute;
@@ -280,15 +318,18 @@ button .searchbtn {
   width: 49%;
   height: 8%;
 }
+
 #topSection .watchCol .watch-div .watch-content img {
   width: 69%;
   position: absolute;
   top: 4.3rem;
   right: 0rem;
 }
+
 #topSection .changeColor {
   background: #f9cdda !important;
 }
+
 #topSection .changeColor h4:after {
   content: "";
   position: absolute;
@@ -308,6 +349,7 @@ button .searchbtn {
   /**************newsletter*******************/
   /****************************exclusive div**********************************/
 }
+
 #shopNow .menCollection {
   height: 50vh;
   background-image: url("../img/mencollection.png");
@@ -315,12 +357,14 @@ button .searchbtn {
   background-position: center;
   background-size: 100%;
   position: relative;
-  transition: all 0.8s !important;
+  transition: all .8s !important;
   margin-top: -1rem;
 }
+
 #shopNow .menCollection:hover .menText {
   opacity: 1;
 }
+
 #shopNow .menCollection .menText {
   text-align: center;
   background: black;
@@ -332,127 +376,157 @@ button .searchbtn {
   left: 6%;
   opacity: 0;
 }
+
 #shopNow .menCollection .menText a {
   color: #fff;
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
+
 #shopNow .ourService {
   height: 56vh;
   background: #fff;
   margin-top: 1rem;
 }
+
 #shopNow .ourService .title {
   background: red;
 }
+
 #shopNow .ourService .title h3 {
-  margin-left: 0.6rem;
+  margin-left: .6rem;
   font-size: 1rem;
-  padding: 0.5rem 0;
+  padding: .5rem 0;
   color: #fff;
 }
+
 #shopNow .ourService .serviceWrapper ul .servicelist {
   margin-left: -2.3rem;
   border-bottom: 1px solid #e2e2e2;
   height: 12vh;
 }
+
 #shopNow .ourService .serviceWrapper ul .servicelist .serviceCntentWrapper img {
   width: 34%;
   max-width: 5rem;
-  margin-top: -0.5rem;
+  margin-top: -.5rem;
 }
+
 #shopNow .ourService .serviceWrapper ul .servicelist .serviceCntentWrapper .mainContentWrapper h6 {
-  font-size: 0.7rem;
+  font-size: .7rem;
   margin-top: 1rem;
 }
+
 #shopNow .ourService .serviceWrapper ul .servicelist .serviceCntentWrapper .mainContentWrapper p {
   font-size: 0.6rem;
-  margin-top: -0.3rem;
+  margin-top: -.3rem;
 }
+
 #shopNow .border0 {
   border-bottom: 0px solid !important;
 }
+
 #shopNow .bestSellers {
   height: 58vh;
   background: #fff;
   margin-top: 2rem;
 }
+
 #shopNow .bestSellers .besttitle {
   background: red;
 }
+
 #shopNow .bestSellers .besttitle h3 {
-  margin-left: 0.6rem;
+  margin-left: .6rem;
   font-size: 1rem;
-  padding: 0.5rem 0;
+  padding: .5rem 0;
   color: #fff;
 }
+
 #shopNow .bestSellers .bestsellwrapper {
-  padding: 0 0.5rem;
+  padding: 0 .5rem;
 }
+
 #shopNow .bestSellers .bestsellwrapper .list {
-  margin-top: 0.7rem;
+  margin-top: .7rem;
   margin-left: -2rem;
   height: 11vh;
 }
+
 #shopNow .bestSellers .bestsellwrapper .list .imgWrapper {
   background: #f7f7f7;
 }
+
 #shopNow .bestSellers .bestsellwrapper .list .imgWrapper img {
   width: 3.5rem;
 }
+
 #shopNow .bestSellers .bestsellwrapper .list .textPrice {
-  margin-left: 0.2rem;
+  margin-left: .2rem;
 }
+
 #shopNow .bestSellers .bestsellwrapper .list .textPrice a h6 {
-  font-size: 0.6rem;
+  font-size: .6rem;
 }
+
 #shopNow .bestSellers .bestsellwrapper .list .textPrice .stars {
-  margin-top: -0.4rem;
+  margin-top: -.4rem;
 }
+
 #shopNow .bestSellers .bestsellwrapper .list .textPrice .stars i {
-  font-size: 0.7rem;
+  font-size: .7rem;
   color: #feba29;
 }
+
 #shopNow .bestSellers .bestsellwrapper .list .textPrice .price p {
-  font-size: 0.9rem;
+  font-size: .9rem;
 }
+
 #shopNow .newsletter {
   height: 47vh;
   background: #fff;
   margin-top: 2rem;
 }
+
 #shopNow .newsletter .newstitle {
   background: red;
 }
+
 #shopNow .newsletter .newstitle h3 {
-  margin-left: 0.6rem;
+  margin-left: .6rem;
   font-size: 1rem;
-  padding: 0.5rem 0;
+  padding: .5rem 0;
   color: #fff;
 }
+
 #shopNow .newsletter .newswrapper {
-  margin: 0 0.2rem;
+  margin: 0 .2rem;
 }
+
 #shopNow .newsletter .newswrapper img {
   width: 6rem;
   margin-left: 1.4rem;
 }
+
 #shopNow .newsletter .newswrapper p {
-  padding: 0 0.6rem;
-  font-size: 0.6rem;
+  padding: 0 .6rem;
+  font-size: .6rem;
 }
+
 #shopNow .newsletter .newswrapper form input {
   width: 100%;
   border: 2px solid #e2e2e2;
-  padding: 0.4rem;
+  padding: .4rem;
   font-size: 0.9rem;
   text-align: center;
 }
+
 #shopNow .newsletter .newswrapper form button {
   color: #fff;
   background: #252525 !important;
   margin-left: 16%;
   border-radius: 5px !important;
 }
+
 #shopNow .exclusive {
   height: 26vh;
   background: #fff;
@@ -461,17 +535,20 @@ button .searchbtn {
   height: 21vh;
   margin-top: 2rem;
 }
+
 #shopNow .exclusive .excwrapper {
   position: relative;
   border: 3px solid #e2e2e2;
   height: 16vh;
 }
+
 #shopNow .exclusive .excwrapper h6 {
   margin-top: 1.3rem;
   color: #252525;
 }
+
 #shopNow .exclusive .excwrapper h6:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 45px;
   left: 33px;
@@ -479,8 +556,9 @@ button .searchbtn {
   width: 55%;
   height: 4%;
 }
+
 #shopNow .exclusive .excwrapper p {
-  font-size: 0.7em;
+  font-size: .7em;
   font-weight: 700;
   line-height: 1.5rem;
   color: #252525;
@@ -493,29 +571,34 @@ button .searchbtn {
 .shipWrapper {
   background: #000;
 }
+
 .shipWrapper .alltextWrapper {
   width: 98%;
   margin: auto;
-  padding: 0.6rem 0;
+  padding: .6rem 0;
 }
+
 .shipWrapper .alltextWrapper .colText p {
   color: #fff;
-  font-size: 0.7rem;
-  margin: 0.4rem 0;
+  font-size: .7rem;
+  margin: .4rem 0;
 }
+
 .shipWrapper .alltextWrapper .colText p span {
   color: #feba29;
 }
+
 .shipWrapper .alltextWrapper .colText .shopwrapper {
   width: 6rem;
   background: #f33535;
   border-radius: 5px;
   margin: 0 auto;
 }
+
 .shipWrapper .alltextWrapper .colText .shopwrapper a {
   text-align: center;
   font-weight: 600;
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 /***************************Featured css***********************************/
@@ -523,65 +606,77 @@ button .searchbtn {
   margin-top: 2rem;
   background: #fff;
 }
+
 .featuredDiv .featuredTitleWrapper {
   background: #fff;
   height: 3rem;
   border-left: 2px solid red;
   position: relative;
-  margin-bottom: 0.6rem;
+  margin-bottom: .6rem;
 }
+
 .featuredDiv .featuredTitleWrapper h1 {
-  font-size: 0.9rem;
-  padding: 1rem 0.4rem;
+  font-size: .9rem;
+  padding: 1rem .4rem;
 }
+
 .featuredDiv .featuredTitleWrapper #buttonWrapper {
   position: relative;
   width: 2rem;
   margin-left: 93%;
   margin-top: -1rem;
 }
+
 .featuredDiv .featuredTitleWrapper #buttonWrapper button {
   position: absolute;
   top: -28px;
   width: 49%;
   height: 1.5rem;
-  margin: 0 -0.3rem;
+  margin: 0 -.3rem;
   border: 1px solid #000;
   border-radius: 3px !important;
   background: #000 !important;
   color: #000 !important;
 }
+
 .featuredDiv .row-wrapper {
   background: #fff;
   height: 78vh;
-  padding: 0 0.6rem;
+  padding: 0 .6rem;
 }
+
 .featuredDiv .row-wrapper .cardWrapper {
   height: 39vh;
 }
+
 .featuredDiv .row-wrapper .cardWrapper .cardimgWrapper {
   background: #f7f7f7;
   height: 9.3rem;
 }
+
 .featuredDiv .row-wrapper .cardWrapper .cardimgWrapper .new {
   background: #000;
   width: 2.5rem;
   height: 1.2rem;
 }
+
 .featuredDiv .row-wrapper .cardWrapper .cardimgWrapper .new p {
   color: #fff;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
+
 .featuredDiv .row-wrapper .cardWrapper .cardimgWrapper img {
   width: 58%;
   margin-left: 22%;
 }
+
 .featuredDiv .row-wrapper .cardWrapper .cardimgWrapper .hovereffect {
   width: 7.5rem;
   margin: auto;
   margin-top: -3rem;
 }
+
 .featuredDiv .row-wrapper .cardWrapper .cardimgWrapper .hovereffect .btn {
   width: 2rem;
   background: #fff !important;
@@ -591,73 +686,82 @@ button .searchbtn {
   position: relative;
   border: 1px solid #d9d9d9;
 }
+
 .featuredDiv .row-wrapper .cardWrapper .cardimgWrapper .hovereffect .btn .icon {
   margin-top: -7px;
-  transition: 0.6s;
+  transition: .6s;
   position: absolute;
   margin-left: -8px;
 }
+
 .featuredDiv .row-wrapper .cardWrapper .cardimgWrapper .hovereffect .btn:hover {
   background: #f33535 !important;
   border: #f33535;
   color: #fff;
 }
+
 .featuredDiv .row-wrapper .cardWrapper .cardtextWrapper {
-  margin-top: 0.5rem;
+  margin-top: .5rem;
   position: relative;
 }
+
 .featuredDiv .row-wrapper .cardWrapper .cardtextWrapper p {
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
+
 .featuredDiv .row-wrapper .cardWrapper .cardtextWrapper .stars {
   color: #feba29;
-  font-size: 0.7rem;
+  font-size: .7rem;
   margin-top: -0.7rem;
 }
+
 .featuredDiv .row-wrapper .cardWrapper .cardtextWrapper p {
-  font-size: 0.8rem;
-  margin-top: 0.2rem;
+  font-size: .8rem;
+  margin-top: .2rem;
 }
+
 .featuredDiv .row-wrapper .cardWrapper .cardtextWrapper button {
   position: absolute;
   width: 8rem;
   background: #f33535;
   border-radius: 5px !important;
   color: #fff;
-  font-size: 0.8rem;
+  font-size: .8rem;
   border: none;
   padding: 0.3rem 0 !important;
   top: 2.8rem;
   left: 1rem;
   opacity: 0;
-  transition: 0.3s;
+  transition: .3s;
 }
+
 .featuredDiv .row-wrapper .cardWrapper .cardtextWrapper button:hover {
   background: #000 !important;
 }
+
 .featuredDiv .row-wrapper .cardWrapper .cardtextWrapper button i {
   color: #fff;
   font-size: 1.2rem;
   margin-top: -0.7rem;
-  margin-right: 0.5rem;
+  margin-right: .5rem;
 }
 
 /********************feature hover*********************/
 .btn1 {
   opacity: 0;
-  transition: 0.9s;
+  transition: .9s;
   transform: translatey(-15px);
 }
 
 .btn2 {
   opacity: 0;
-  transition: 0.6s;
+  transition: .6s;
   transform: translatey(-15px);
 }
 
 .btn3 {
   opacity: 0;
-  transition: 0.3s;
+  transition: .3s;
   transform: translatey(-15px);
 }
 
@@ -679,69 +783,83 @@ button .searchbtn {
 .bestLaptop {
   margin-top: 2rem;
 }
+
 .bestLaptop .laptopWrapper .laptop {
   background: #f4ad31;
   height: 29vh;
-  padding: 0 0.5rem;
+  padding: 0 .5rem;
 }
+
 .bestLaptop .laptopWrapper .laptop .laptopTextWrapper {
   margin: 2.7rem auto;
 }
+
 .bestLaptop .laptopWrapper .laptop .laptopTextWrapper h3 {
   font-size: 1rem;
   color: #fff;
   line-height: 1.5rem;
 }
+
 .bestLaptop .laptopWrapper .laptop .laptopTextWrapper .buydiv {
   background: #f33535;
   width: 8rem;
   border-radius: 5px;
 }
+
 .bestLaptop .laptopWrapper .laptop .laptopTextWrapper .buydiv a {
-  font-size: 0.8rem;
+  font-size: .8rem;
   color: #fff;
   text-align: center;
   font-weight: 700;
 }
+
 .bestLaptop .laptopWrapper .laptop .laptopTextWrapper p {
-  margin-top: 0.7rem;
+  margin-top: .7rem;
   color: #fff;
-  font-size: 0.7rem;
+  font-size: .7rem;
 }
+
 .bestLaptop .laptopWrapper .laptop img {
   width: 11rem;
   height: 9rem;
   margin-top: 1rem;
 }
+
 .bestLaptop .laptopWrapper .tablet {
   background: #f1c12f;
-  padding: 0 0.5rem;
+  padding: 0 .5rem;
   height: 29vh;
 }
+
 .bestLaptop .laptopWrapper .tablet .tabletTextWrapper {
   margin: 2.7rem auto;
 }
+
 .bestLaptop .laptopWrapper .tablet .tabletTextWrapper h3 {
   font-size: 1rem;
   color: #fff;
   line-height: 1.5rem;
 }
+
 .bestLaptop .laptopWrapper .tablet .tabletTextWrapper .buydiv {
   background: #f33535;
   width: 8rem;
   border-radius: 5px;
 }
+
 .bestLaptop .laptopWrapper .tablet .tabletTextWrapper .buydiv a {
-  font-size: 0.8rem;
+  font-size: .8rem;
   color: #fff;
   text-align: center;
   font-weight: 700;
 }
+
 .bestLaptop .laptopWrapper .tablet .tabletTextWrapper p {
   color: #fff;
-  font-size: 0.7rem;
-  margin-top: 0.7rem;
+  font-size: .7rem;
+  margin-top: .7rem;
 }
+
 .bestLaptop .laptopWrapper .tablet img {
   width: 11rem;
   height: 9rem;
@@ -754,114 +872,136 @@ button .searchbtn {
   margin-top: 2rem;
   background: #fff;
 }
+
 #specialProduct .specialTitleWrapper {
   background: #fff;
   height: 3rem;
   border-left: 2px solid red;
   position: relative;
-  margin-bottom: 0.6rem;
+  margin-bottom: .6rem;
 }
+
 #specialProduct .specialTitleWrapper h3 {
-  font-size: 0.9rem;
-  padding: 1rem 0.4rem;
+  font-size: .9rem;
+  padding: 1rem .4rem;
 }
+
 #specialProduct .specialTitleWrapper #buttonWrapper2 {
   position: relative;
   width: 2rem;
   margin-left: 93%;
   margin-top: -1rem;
 }
+
 #specialProduct .specialTitleWrapper #buttonWrapper2 button {
   position: absolute;
   top: -28px;
   width: 49%;
   height: 1.5rem;
-  margin: 0 -0.3rem;
+  margin: 0 -.3rem;
   border: 1px solid #000;
   border-radius: 3px !important;
   background: #000 !important;
   color: #000 !important;
 }
+
 #specialProduct .specialProductWrapper {
   margin: 1rem;
 }
+
 #specialProduct .specialProductWrapper .specialCard {
   height: 24vh;
   display: flex;
   flex-direction: row;
 }
+
 #specialProduct .specialProductWrapper .specialCard:hover .btn {
   opacity: 1 !important;
 }
+
 #specialProduct .specialProductWrapper .specialCard .sepcialimgwrapper {
   width: 48%;
   background: #f7f7f7;
 }
+
 #specialProduct .specialProductWrapper .specialCard .sepcialimgwrapper .salediv {
   background: #f33535;
   width: 2rem;
 }
+
 #specialProduct .specialProductWrapper .specialCard .sepcialimgwrapper .salediv p {
-  font-size: 0.8rem;
+  font-size: .8rem;
   color: #fff;
   text-align: center;
 }
+
 #specialProduct .specialProductWrapper .specialCard .sepcialimgwrapper img {
-  width: 39%;
+  width: 60%;
   display: block;
   margin: auto;
   padding-bottom: 1em;
 }
+
 #specialProduct .specialProductWrapper .specialCard .specialTextWapper {
-  margin-left: 0.2rem;
+  margin-left: .2rem;
 }
+
 #specialProduct .specialProductWrapper .specialCard .specialTextWapper h3 {
-  font-size: 0.9rem;
+  font-size: .9rem;
 }
+
 #specialProduct .specialProductWrapper .specialCard .specialTextWapper .stars {
   color: #feba29;
-  font-size: 0.7rem;
+  font-size: .7rem;
   margin-top: -0.7rem;
   margin: 0 2px;
 }
+
 #specialProduct .specialProductWrapper .specialCard .specialTextWapper p {
-  font-size: 0.8rem;
-  margin-top: 0.2rem;
+  font-size: .8rem;
+  margin-top: .2rem;
 }
+
 #specialProduct .specialProductWrapper .specialCard .specialTextWapper .allBtnWrapper {
   display: flex;
   flex-direction: row;
 }
+
 #specialProduct .specialProductWrapper .specialCard .specialTextWapper .allBtnWrapper .py-1 {
   width: 8rem;
   background: #f33535;
   border-radius: 5px !important;
   margin: 0 auto;
   color: #fff;
-  font-size: 0.7rem;
+  font-size: .7rem;
   border: none;
-  padding: 0.5rem 0 !important;
+  padding: .5rem 0 !important;
 }
+
 #specialProduct .specialProductWrapper .specialCard .specialTextWapper .allBtnWrapper .py-1:hover {
   background: #000 !important;
 }
+
 #specialProduct .specialProductWrapper .specialCard .specialTextWapper .allBtnWrapper .py-1 i {
   color: #fff;
   font-size: 1rem;
   margin-top: -0.7rem;
-  margin-right: 0.5rem;
+  margin-right: .5rem;
 }
+
 #specialProduct .specialProductWrapper .specialCard .specialTextWapper .allBtnWrapper .hovereffect2 {
-  margin-left: 0.4rem;
+  margin-left: .4rem;
 }
+
 #specialProduct .specialProductWrapper .specialCard .specialTextWapper .allBtnWrapper .hovereffect2 .btn {
   transform: translatey(0px);
   background: #fff !important;
   border: 1px solid #000;
-  margin: 0 0.1rem;
+  margin: 0 .1rem;
   opacity: 0;
   border-radius: 5px !important;
 }
+
 #specialProduct .specialProductWrapper .specialCard .specialTextWapper .allBtnWrapper .hovereffect2 .btn:hover {
   background: #f33535 !important;
   border: 1px solid #f33535 !important;
@@ -874,41 +1014,48 @@ button .searchbtn {
   margin-top: 2rem;
   background: #fff;
 }
+
 .ourBlog .blogTitleWrapper {
   background: #fff;
   height: 3rem;
   border-left: 2px solid red;
   position: relative;
-  margin-bottom: 0.6rem;
+  margin-bottom: .6rem;
 }
+
 .ourBlog .blogTitleWrapper h3 {
-  font-size: 0.9rem;
-  padding: 1rem 0.4rem;
+  font-size: .9rem;
+  padding: 1rem .4rem;
 }
+
 .ourBlog .blogTitleWrapper .buttonWrapper3 {
   position: relative;
   width: 2rem;
   margin-left: 93%;
   margin-top: -1rem;
 }
+
 .ourBlog .blogTitleWrapper .buttonWrapper3 button {
   position: absolute;
   top: -28px;
   width: 49%;
   height: 1.5rem;
-  margin: 0 -0.3rem;
+  margin: 0 -.3rem;
   border: 1px solid #000;
   border-radius: 3px !important;
   background: #000 !important;
   color: #000 !important;
 }
+
 .ourBlog .blogCardWrapper {
   margin: 1rem;
 }
+
 .ourBlog .blogCardWrapper .blogCard .blogTextWrapper .datediv {
-  margin-top: 0.5rem;
+  margin-top: .5rem;
   position: relative;
 }
+
 .ourBlog .blogCardWrapper .blogCard .blogTextWrapper .datediv:after {
   content: "";
   position: absolute;
@@ -918,84 +1065,99 @@ button .searchbtn {
   width: 20%;
   height: 3px;
 }
+
 .ourBlog .blogCardWrapper .blogCard .blogTextWrapper .datediv p {
   font-size: 1rem;
 }
+
 .ourBlog .blogCardWrapper .blogCard .blogTextWrapper .decriptionDiv h3 {
   font-size: 1rem;
   font-weight: 700;
   color: #f33535;
 }
+
 .ourBlog .blogCardWrapper .blogCard .blogTextWrapper .decriptionDiv p {
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
+
 .ourBlog .blogCardWrapper .blogCard .blogTextWrapper .decriptionDiv .blogBtn {
   background: #000;
   width: 8rem;
   border-radius: 5px;
   margin: 0 auto;
 }
+
 .ourBlog .blogCardWrapper .blogCard .blogTextWrapper .decriptionDiv .blogBtn:hover {
   background: #f33535;
 }
+
 .ourBlog .blogCardWrapper .blogCard .blogTextWrapper .decriptionDiv .blogBtn a {
   color: #fff;
 }
 
 /****************************blog end*************************************/
-/****************************Latest product css*************************************/
+/****************************brand product css*************************************/
 .brandDiv {
   margin-top: 2rem;
   background: #fff;
 }
+
 .brandDiv .brandTitleWrapper {
   background: #fff;
   height: 3rem;
   border-left: 2px solid red;
   position: relative;
-  margin-bottom: 0.6rem;
+  margin-bottom: .6rem;
 }
+
 .brandDiv .brandTitleWrapper h3 {
-  font-size: 0.9rem;
-  padding: 1rem 0.4rem;
+  font-size: .9rem;
+  padding: 1rem .4rem;
 }
+
 .brandDiv .brandTitleWrapper .buttonWrapper4 {
   position: relative;
   width: 2rem;
   margin-left: 93%;
   margin-top: -1rem;
 }
+
 .brandDiv .brandTitleWrapper .buttonWrapper4 button {
   position: absolute;
   top: -28px;
   width: 49%;
   height: 1.5rem;
-  margin: 0 -0.3rem;
+  margin: 0 -.3rem;
   border: 1px solid #000;
   border-radius: 3px !important;
   background: #000 !important;
   color: #000 !important;
 }
+
 .brandDiv .brandcardWrapper {
   width: 105%;
 }
+
 .brandDiv .brandcardWrapper .allimgWrapper {
   display: flex;
   flex-direction: row;
+  padding-bottom: 1rem;
 }
+
 .brandDiv .brandcardWrapper .allimgWrapper .brandimgWrapper {
   width: 17%;
   margin: 0 1%;
   border: 1px solid #252552;
 }
+
 .brandDiv .brandcardWrapper .allimgWrapper .brandimgWrapper img {
-  margin-top: 0.8rem !important;
+  margin-top: .8rem !important;
   width: 90%;
   display: block;
   margin: auto;
 }
 
-/************************Latest product css end*************************************/
+/************************Brand product css end*************************************/
 /*********************************Bye Product Css End***********************************/
 /*******************************Right site service**************************************/
 .dealDiv {
@@ -1003,41 +1165,50 @@ button .searchbtn {
   background: #fff;
   border: 2px solid #f33535;
 }
+
 .dealDiv .dealtext {
   background: red;
 }
+
 .dealDiv .dealtext h3 {
-  margin-left: 0.6rem;
+  margin-left: .6rem;
   font-size: 1rem;
-  padding: 0.5rem 0;
+  padding: .5rem 0;
   color: #fff;
 }
+
 .dealDiv .dealContentWrapper {
   padding: 0 0.2rem;
 }
+
 .dealDiv .dealContentWrapper .imgwrapper {
   background: #f7f7f7;
   height: 19.5vh;
 }
+
 .dealDiv .dealContentWrapper .imgwrapper .new {
   background-color: black;
   width: 2.5rem;
 }
+
 .dealDiv .dealContentWrapper .imgwrapper .new p {
   color: #fff;
   text-align: center;
-  font-size: 0.7rem;
+  font-size: .7rem;
 }
+
 .dealDiv .dealContentWrapper .imgwrapper img {
   width: 52%;
   margin-top: -1.5rem;
   margin-left: 24%;
 }
+
 .dealDiv .dealContentWrapper .imgwrapper .hovereffect {
   width: 7.5rem;
   margin: auto;
   margin-top: -3.5rem;
 }
+
 .dealDiv .dealContentWrapper .imgwrapper .hovereffect .btn {
   width: 2rem;
   background: #fff !important;
@@ -1047,25 +1218,30 @@ button .searchbtn {
   position: relative;
   border: 1px solid #d9d9d9;
 }
+
 .dealDiv .dealContentWrapper .imgwrapper .hovereffect .btn .icon {
   margin-top: -7px;
-  transition: 0.6s;
+  transition: .6s;
   position: absolute;
   margin-left: -8px;
 }
+
 .dealDiv .dealContentWrapper .imgwrapper .hovereffect .btn:hover {
   background: #f33535 !important;
   border: #f33535;
   color: #fff;
 }
+
 .dealDiv .dealContentWrapper .priceContentWrapper .stars {
   color: #e8b30d;
   margin-top: -0.8rem;
 }
+
 .dealDiv .dealContentWrapper .dayCounter {
   width: 82%;
   margin: auto;
 }
+
 .dealDiv .dealContentWrapper .dayCounter .day #inday {
   text-align: center;
   width: 153%;
@@ -1073,12 +1249,15 @@ button .searchbtn {
   border-radius: 5px;
   background: #f7f7f7 !important;
 }
+
 .dealDiv .dealContentWrapper .dayCounter .day p {
   font-size: 0.7rem;
 }
+
 .dealDiv .dealContentWrapper .dayCounter .hours {
   margin-left: 12%;
 }
+
 .dealDiv .dealContentWrapper .dayCounter .hours #inhoure {
   border-radius: 5px;
   text-align: center;
@@ -1086,12 +1265,15 @@ button .searchbtn {
   height: 5vh;
   background: #f7f7f7 !important;
 }
+
 .dealDiv .dealContentWrapper .dayCounter .hours p {
   font-size: 0.7rem;
 }
+
 .dealDiv .dealContentWrapper .dayCounter .minuts {
   margin-left: 2%;
 }
+
 .dealDiv .dealContentWrapper .dayCounter .minuts #inminuts {
   border-radius: 5px;
   text-align: center;
@@ -1099,12 +1281,15 @@ button .searchbtn {
   height: 5vh;
   background: #f7f7f7 !important;
 }
+
 .dealDiv .dealContentWrapper .dayCounter .minuts p {
   font-size: 0.7rem;
 }
+
 .dealDiv .dealContentWrapper .dayCounter .second {
   margin-left: 5%;
 }
+
 .dealDiv .dealContentWrapper .dayCounter .second #insecond {
   border-radius: 5px;
   text-align: center;
@@ -1112,6 +1297,7 @@ button .searchbtn {
   height: 5vh;
   background: #f7f7f7 !important;
 }
+
 .dealDiv .dealContentWrapper .dayCounter .second p {
   font-size: 0.7rem;
 }
@@ -1119,19 +1305,19 @@ button .searchbtn {
 /*******************Dealhover css**********************/
 .btn1 {
   opacity: 0;
-  transition: 0.9s;
+  transition: .9s;
   transform: translatey(-15px);
 }
 
 .btn2 {
   opacity: 0;
-  transition: 0.6s;
+  transition: .6s;
   transform: translatey(-15px);
 }
 
 .btn3 {
   opacity: 0;
-  transition: 0.3s;
+  transition: .3s;
   transform: translatey(-15px);
 }
 
@@ -1147,40 +1333,49 @@ button .searchbtn {
   height: 55vh;
   margin-top: 2rem;
 }
+
 .testImonialDiv .testTitleDiv {
   background: red;
 }
+
 .testImonialDiv .testTitleDiv h3 {
-  margin-left: 0.6rem;
+  margin-left: .6rem;
   font-size: 1rem;
-  padding: 0.5rem 0;
+  padding: .5rem 0;
   color: #fff;
 }
+
 .testImonialDiv .testmonialContentWrapper img {
   width: 5rem !important;
   margin-left: 2.5rem;
 }
+
 .testImonialDiv .testmonialContentWrapper p {
-  font-size: 0.9rem;
+  font-size: .9rem;
   color: #757575;
 }
+
 .testImonialDiv .testmonialContentWrapper .imgTextWrapper {
   margin-top: 1.5rem;
 }
+
 .testImonialDiv .testmonialContentWrapper .imgTextWrapper img {
   width: 4rem !important;
   margin-left: 0.5rem;
   height: 4rem;
 }
+
 .testImonialDiv .testmonialContentWrapper .imgTextWrapper .textWrapper {
-  margin-top: 0.7rem;
+  margin-top: .7rem;
 }
+
 .testImonialDiv .testmonialContentWrapper .imgTextWrapper .textWrapper h4 {
-  font-size: 0.7rem;
+  font-size: .7rem;
 }
+
 .testImonialDiv .testmonialContentWrapper .imgTextWrapper .textWrapper p {
-  font-size: 0.6rem;
-  line-height: 0.3rem;
+  font-size: .6rem;
+  line-height: .3rem;
   color: #757575;
 }
 
@@ -1210,18 +1405,22 @@ button .searchbtn {
   height: 47vh;
   background: #e3dacb;
 }
+
 .fashionbag .fashiontextWrapper h3 {
   font-size: 1rem;
 }
+
 .fashionbag .fashiontextWrapper p {
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
+
 .fashionbag .fashiontextWrapper a {
-  padding: 0.2rem 0.5rem;
+  padding: 0.2rem .5rem;
   border: 1px solid black;
-  font-size: 0.8rem;
+  font-size: .8rem;
   color: black;
 }
+
 .fashionbag .fashiontextWrapper img {
   width: 75%;
 }
@@ -1233,42 +1432,252 @@ button .searchbtn {
   background: #fff;
   margin-top: 2rem;
 }
+
 .latestproduct .latestttitle {
   background: red;
 }
+
 .latestproduct .latestttitle h3 {
-  margin-left: 0.6rem;
+  margin-left: .6rem;
   font-size: 1rem;
-  padding: 0.5rem 0;
+  padding: .5rem 0;
   color: #fff;
 }
+
 .latestproduct .latestwrapper {
-  padding: 0 0.5rem;
+  padding: 0 .5rem;
 }
+
 .latestproduct .latestwrapper .list {
-  margin-top: 0.7rem;
+  margin-top: .7rem;
   margin-left: -2rem;
   height: 11vh;
 }
+
 .latestproduct .latestwrapper .list .imgWrapper {
   background: #f7f7f7;
 }
+
 .latestproduct .latestwrapper .list .imgWrapper img {
   width: 3.5rem;
 }
+
 .latestproduct .latestwrapper .list .textPrice {
-  margin-left: 0.2rem;
+  margin-left: .2rem;
 }
+
 .latestproduct .latestwrapper .list .textPrice a h6 {
-  font-size: 0.6rem;
+  font-size: .6rem;
 }
+
 .latestproduct .latestwrapper .list .textPrice .stars {
-  margin-top: -0.4rem;
+  margin-top: -.4rem;
 }
+
 .latestproduct .latestwrapper .list .textPrice .stars i {
-  font-size: 0.7rem;
+  font-size: .7rem;
   color: #feba29;
 }
+
 .latestproduct .latestwrapper .list .textPrice .price p {
-  font-size: 0.9rem;
-}/*# sourceMappingURL=demo.css.map */
+  font-size: .9rem;
+}
+
+/*********************************************************************************
+**********************************Footer Area css*********************************
+*********************************************************************************/
+footer {
+  background: #252525;
+}
+
+footer .footercontentwrap .footerlogo img {
+  width: 58%;
+}
+
+footer .footercontentwrap p {
+  color: #6b6b6b;
+}
+
+footer .footercontentwrap .socialArea ul {
+  margin-left: -2rem;
+}
+
+footer .footercontentwrap .socialArea ul li {
+  border: 1px solid #323232;
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1rem;
+  text-align: center;
+  transition: .6s;
+}
+
+footer .footercontentwrap .socialArea ul li:hover {
+  background: #f33535;
+}
+
+footer .footercontentwrap .socialArea ul li a i {
+  margin-top: .5rem;
+  color: #e2e2e2;
+}
+
+footer .topbarwrap {
+  width: 100%;
+}
+
+footer .topbarwrap .topbar {
+  background: red;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+
+footer .topbarwrap .topbar a i {
+  color: #fff;
+  margin-left: 0.2rem;
+  margin-top: .4rem;
+  font-size: 1.5rem;
+}
+
+.firstli {
+  margin-left: 0rem !important;
+}
+
+/********************************info col*********************************************/
+.infoWrapper .infoTitle h3 {
+  color: white;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.infoWrapper .infoTitle h3:before {
+  content: '';
+  position: absolute;
+  background: #f33535;
+  top: 61px;
+  left: 0px;
+  width: 30%;
+  height: 3px;
+}
+
+.infoWrapper .infoTitle h4 {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.infoWrapper .listwrapper ul {
+  margin-left: -2rem;
+}
+
+.infoWrapper .listwrapper ul li {
+  margin-top: .8rem;
+}
+
+.infoWrapper .listwrapper ul li a {
+  color: #6b6b6b;
+}
+
+/********************Account col***************************/
+.accountwrapper h3 {
+  color: white;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.accountwrapper h3:before {
+  content: '';
+  position: absolute;
+  background: #f33535;
+  top: 61px;
+  left: 0px;
+  width: 30%;
+  height: 3px;
+}
+
+.accountwrapper .accountLiat {
+  margin-top: 2.2rem !important;
+}
+
+.accountwrapper .accountLiat ul {
+  margin: -2rem;
+}
+
+.accountwrapper .accountLiat ul li {
+  margin-top: .8rem;
+}
+
+.accountwrapper .accountLiat ul li a {
+  color: #6b6b6b;
+}
+
+/******************Extras css***************/
+.extrasWrapper .extrasTitle h3 {
+  color: white;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.extrasWrapper .extrasTitle h3:before {
+  content: '';
+  position: absolute;
+  background: #f33535;
+  top: 61px;
+  left: 0px;
+  width: 30%;
+  height: 3px;
+}
+
+.extrasWrapper .listwrapper {
+  margin-top: -.8rem;
+}
+
+.extrasWrapper .listwrapper ul {
+  margin-left: -2rem;
+}
+
+.extrasWrapper .listwrapper ul li {
+  margin-top: .8rem;
+}
+
+.extrasWrapper .listwrapper ul li a {
+  color: #6b6b6b;
+}
+
+/*********Extra css end**********/
+/*******************************Contact us************************/
+.contactwrapper h3 {
+  color: white;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.contactwrapper h3:before {
+  content: '';
+  position: absolute;
+  background: #f33535;
+  top: 61px;
+  left: 0px;
+  width: 30%;
+  height: 3px;
+}
+
+.contactwrapper .contactLiat {
+  margin-top: 2.2rem !important;
+}
+
+.contactwrapper .contactLiat ul {
+  margin: -2rem;
+}
+
+.contactwrapper .contactLiat ul li {
+  margin-top: .8rem;
+}
+
+.contactwrapper .contactLiat ul li p {
+  color: #fff;
+  font-weight: 700;
+}
+
+.contactwrapper .contactLiat ul li p a {
+  color: #6b6b6b;
+}

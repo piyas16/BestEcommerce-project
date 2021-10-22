@@ -1028,7 +1028,7 @@ button {
                 }
 
                 img {
-                    width: 39%;
+                    width: 60%;
                     display: block;
                     margin: auto;
                     padding-bottom: 1em;
@@ -1217,7 +1217,7 @@ button {
 
 /****************************blog end*************************************/
 
-/****************************Latest product css*************************************/
+/****************************brand product css*************************************/
 .brandDiv {
     margin-top: 2rem;
     background: #fff;
@@ -1260,6 +1260,7 @@ button {
         .allimgWrapper {
             display: flex;
             flex-direction: row;
+            padding-bottom: 1rem;
 
             .brandimgWrapper {
                 width: 17%;
@@ -1277,7 +1278,7 @@ button {
     }
 }
 
-/************************Latest product css end*************************************/
+/************************Brand product css end*************************************/
 
 /*********************************Bye Product Css End***********************************/
 
@@ -1636,6 +1637,249 @@ button {
                         font-size: .9rem;
                     }
                 }
+            }
+        }
+    }
+}
+
+/*********************************************************************************
+**********************************Footer Area css*********************************
+*********************************************************************************/
+footer {
+    background: #252525;
+
+    .footercontentwrap {
+        .footerlogo {
+            img {
+                width: 58%;
+            }
+        }
+
+        p {
+            color: #6b6b6b;
+        }
+
+        .socialArea {
+            ul {
+                margin-left: -2rem;
+
+                li {
+                    border: 1px solid #323232;
+                    width: 2rem;
+                    height: 2rem;
+                    margin-left: 1rem;
+                    text-align: center;
+                    transition: .6s;
+
+                    &:hover {
+                        background: #f33535;
+                    }
+
+                    a {
+                        i {
+                            margin-top: .5rem;
+                            color: #e2e2e2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .topbarwrap {
+        width: 100%;
+
+        .topbar {
+            background: red;
+            width: 3rem;
+            height: 3rem;
+            border-radius: 5px;
+            margin-right: 1rem;
+
+            a {
+
+
+                i {
+                    color: #fff;
+                    margin-left: 0.2rem;
+                    margin-top: .4rem;
+                    font-size: 1.5rem;
+                }
+
+            }
+        }
+    }
+
+}
+
+
+
+.firstli {
+    margin-left: 0rem !important;
+}
+
+/********************************info col*********************************************/
+.infoWrapper {
+    .infoTitle {
+        h3 {
+            color: rgb(255, 255, 255);
+            font-size: 1.2rem;
+            position: relative;
+
+
+            &:before {
+                content: '';
+                position: absolute;
+                background: #f33535;
+                top: 61px;
+                left: 0px;
+                width: 30%;
+                height: 3px;
+
+            }
+        }
+
+        h4 {
+            color: #fff;
+            font-size: 1rem;
+        }
+
+    }
+
+    .listwrapper {
+        ul {
+            margin-left: -2rem;
+
+            li {
+                margin-top: .8rem;
+
+                a {
+                    color: #6b6b6b;
+                }
+            }
+        }
+    }
+}
+
+/********************Account col***************************/
+.accountwrapper {
+    h3 {
+        color: rgb(255, 255, 255);
+        font-size: 1.2rem;
+        position: relative;
+
+
+        &:before {
+            content: '';
+            position: absolute;
+            background: #f33535;
+            top: 61px;
+            left: 0px;
+            width: 30%;
+            height: 3px;
+
+        }
+    }
+
+    .accountLiat {
+        margin-top: 2.2rem !important;
+
+        ul {
+
+            margin: -2rem;
+
+            li {
+                margin-top: .8rem;
+
+                a {
+                    color: #6b6b6b;
+                }
+            }
+        }
+    }
+}
+
+/******************Extras css***************/
+.extrasWrapper {
+    .extrasTitle {
+        h3 {
+            color: rgb(255, 255, 255);
+            font-size: 1.2rem;
+            position: relative;
+
+
+            &:before {
+                content: '';
+                position: absolute;
+                background: #f33535;
+                top: 61px;
+                left: 0px;
+                width: 30%;
+                height: 3px;
+
+            }
+        }
+
+    }
+
+    .listwrapper {
+        margin-top: -.8rem;
+
+        ul {
+            margin-left: -2rem;
+
+            li {
+                margin-top: .8rem;
+
+                a {
+                    color: #6b6b6b;
+                }
+            }
+        }
+    }
+}
+
+/*********Extra css end**********/
+/*******************************Contact us************************/
+.contactwrapper {
+    h3 {
+        color: rgb(255, 255, 255);
+        font-size: 1.2rem;
+        position: relative;
+
+
+        &:before {
+            content: '';
+            position: absolute;
+            background: #f33535;
+            top: 61px;
+            left: 0px;
+            width: 30%;
+            height: 3px;
+
+        }
+    }
+
+    .contactLiat {
+        margin-top: 2.2rem !important;
+
+        ul {
+
+            margin: -2rem;
+
+            li {
+                margin-top: .8rem;
+
+                p {
+                    color: #fff;
+                    font-weight: 700;
+
+                    a {
+                        color: #6b6b6b;
+                    }
+                }
+
+
             }
         }
     }
