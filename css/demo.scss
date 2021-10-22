@@ -746,10 +746,43 @@ button {
                     width: 58%;
                     margin-left: 22%;
                 }
+
+                .hovereffect {
+                    width: 7.5rem;
+                    margin: auto;
+                    margin-top: -3rem;
+
+                    .btn {
+                        width: 2rem;
+                        background: #fff !important;
+                        height: 2rem;
+                        border-radius: 5px !important;
+                        margin-left: 0.4rem;
+                        position: relative;
+                        border: 1px solid #d9d9d9;
+
+                        .icon {
+                            margin-top: -7px;
+                            transition: .6s;
+                            position: absolute;
+                            margin-left: -8px;
+
+                        }
+
+                        &:hover {
+                            background: #f33535 !important;
+                            border: #f33535;
+                            color: #fff;
+
+                        }
+
+                    }
+                }
             }
 
             .cardtextWrapper {
                 margin-top: .5rem;
+                position: relative;
 
                 p {
                     font-size: .8rem;
@@ -767,10 +800,74 @@ button {
                     margin-top: .2rem;
 
                 }
+
+                button {
+                    position: absolute;
+                    width: 8rem;
+                    background: hsl(0, 89%, 58%);
+                    border-radius: 5px !important;
+                    color: #fff;
+                    font-size: .8rem;
+                    border: none;
+                    padding: 0.3rem 0 !important;
+                    top: 2.8rem;
+                    left: 1rem;
+                    opacity: 0;
+                    transition: .3s;
+
+                    &:hover {
+                        background: #000 !important;
+
+                    }
+
+                    i {
+                        color: #fff;
+                        font-size: 1.2rem;
+                        margin-top: -0.7rem;
+                        margin-right: .5rem;
+                    }
+                }
+
             }
         }
     }
 }
+
+/********************feature hover*********************/
+.btn1 {
+    opacity: 0;
+    transition: .9s;
+    transform: translatey(-15px);
+}
+
+.btn2 {
+    opacity: 0;
+    transition: .6s;
+    transform: translatey(-15px);
+
+}
+
+
+.btn3 {
+    opacity: 0;
+    transition: .3s;
+    transform: translatey(-15px);
+}
+
+.cardWrapper:hover .btn {
+    opacity: 1;
+    transform: translatey(10px);
+}
+
+.cardWrapper:hover .pred {
+    color: #f33535 !important;
+}
+
+.cardWrapper:hover button {
+    opacity: 1 !important;
+}
+
+/********************feature hover end*********************/
 
 /****************************Best laptop div css*************************************/
 .bestLaptop {
@@ -850,7 +947,7 @@ button {
                 p {
                     color: #fff;
                     font-size: .7rem;
-                    margin-top: ,7rem;
+                    margin-top: .7rem;
                 }
             }
 
@@ -865,6 +962,322 @@ button {
 
 /****************************Best laptop div end*************************************/
 
+/****************************Special product Starts*************************************/
+#specialProduct {
+    margin-top: 2rem;
+    background: #fff;
+
+    .specialTitleWrapper {
+        background: #fff;
+        height: 3rem;
+        border-left: 2px solid red;
+        position: relative;
+        margin-bottom: .6rem;
+
+        h3 {
+            font-size: .9rem;
+            padding: 1rem .4rem;
+        }
+
+
+        #buttonWrapper2 {
+            position: relative;
+            width: 2rem;
+            margin-left: 93%;
+            margin-top: -1rem;
+
+            button {
+                position: absolute;
+                top: -28px;
+                width: 49%;
+                height: 1.5rem;
+                margin: 0 -.3rem;
+                border: 1px solid #000;
+                border-radius: 3px !important;
+                background: #000 !important;
+                color: #000 !important;
+            }
+        }
+    }
+
+    .specialProductWrapper {
+        margin: 1rem;
+
+        .specialCard {
+            height: 24vh;
+            display: flex;
+            flex-direction: row;
+
+            &:hover .btn {
+                opacity: 1 !important;
+            }
+
+            .sepcialimgwrapper {
+                width: 48%;
+                background: #f7f7f7;
+
+                .salediv {
+                    background: #f33535;
+                    width: 2rem;
+
+                    p {
+                        font-size: .8rem;
+                        color: #fff;
+                        text-align: center;
+                    }
+                }
+
+                img {
+                    width: 39%;
+                    display: block;
+                    margin: auto;
+                    padding-bottom: 1em;
+                }
+            }
+
+            .specialTextWapper {
+                margin-left: .2rem;
+
+                h3 {
+                    font-size: .9rem;
+                }
+
+                .stars {
+                    color: #feba29;
+                    font-size: .7rem;
+                    margin-top: -0.7rem;
+                    margin: 0 2px;
+                }
+
+                p {
+                    font-size: .8rem;
+                    margin-top: .2rem;
+                }
+
+                .allBtnWrapper {
+                    display: flex;
+                    flex-direction: row;
+
+                    .py-1 {
+                        width: 8rem;
+                        background: hsl(0, 89%, 58%);
+                        border-radius: 5px !important;
+                        margin: 0 auto;
+                        color: #fff;
+                        font-size: .7rem;
+                        border: none;
+                        padding: .5rem 0 !important;
+
+                        &:hover {
+                            background: #000 !important;
+
+                        }
+
+                        i {
+                            color: #fff;
+                            font-size: 1rem;
+                            margin-top: -0.7rem;
+                            margin-right: .5rem;
+                        }
+                    }
+
+                    .hovereffect2 {
+                        margin-left: .4rem;
+
+
+                        .btn {
+                            transform: translatey(0px);
+                            background: #fff !important;
+                            border: 1px solid #000;
+                            margin: 0 .1rem;
+                            opacity: 0;
+                            border-radius: 5px !important;
+
+
+
+
+                            &:hover {
+                                background: #f33535 !important;
+                                border: 1px solid #f33535 !important;
+                                color: #fff;
+
+                            }
+
+                        }
+                    }
+                }
+
+
+
+            }
+        }
+    }
+
+}
+
+
+/****************************Special product end*************************************/
+/****************************blog start*************************************/
+.ourBlog {
+    margin-top: 2rem;
+    background: #fff;
+
+    .blogTitleWrapper {
+        background: #fff;
+        height: 3rem;
+        border-left: 2px solid red;
+        position: relative;
+        margin-bottom: .6rem;
+
+        h3 {
+            font-size: .9rem;
+            padding: 1rem .4rem;
+        }
+
+        .buttonWrapper3 {
+            position: relative;
+            width: 2rem;
+            margin-left: 93%;
+            margin-top: -1rem;
+
+            button {
+                position: absolute;
+                top: -28px;
+                width: 49%;
+                height: 1.5rem;
+                margin: 0 -.3rem;
+                border: 1px solid #000;
+                border-radius: 3px !important;
+                background: #000 !important;
+                color: #000 !important;
+            }
+        }
+    }
+
+    .blogCardWrapper {
+        margin: 1rem;
+
+        .blogCard {
+
+
+            .blogTextWrapper {
+                .datediv {
+                    margin-top: .5rem;
+                    position: relative;
+
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        background: #f33535;
+                        top: 32px;
+                        left: 87px;
+                        width: 20%;
+                        height: 3px;
+
+                    }
+
+                    p {
+                        font-size: 1rem;
+                    }
+                }
+
+                .decriptionDiv {
+                    h3 {
+                        font-size: 1rem;
+                        font-weight: 700;
+                        color: #f33535;
+                    }
+
+                    p {
+                        font-size: .8rem;
+                    }
+
+                    .blogBtn {
+                        background: #000;
+                        width: 8rem;
+                        border-radius: 5px;
+                        margin: 0 auto;
+
+                        &:hover {
+                            background: #f33535;
+                        }
+
+
+
+                        a {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+/****************************blog end*************************************/
+
+/****************************Latest product css*************************************/
+.brandDiv {
+    margin-top: 2rem;
+    background: #fff;
+
+    .brandTitleWrapper {
+        background: #fff;
+        height: 3rem;
+        border-left: 2px solid red;
+        position: relative;
+        margin-bottom: .6rem;
+
+        h3 {
+            font-size: .9rem;
+            padding: 1rem .4rem;
+        }
+
+        .buttonWrapper4 {
+            position: relative;
+            width: 2rem;
+            margin-left: 93%;
+            margin-top: -1rem;
+
+            button {
+                position: absolute;
+                top: -28px;
+                width: 49%;
+                height: 1.5rem;
+                margin: 0 -.3rem;
+                border: 1px solid #000;
+                border-radius: 3px !important;
+                background: #000 !important;
+                color: #000 !important;
+            }
+        }
+    }
+
+    .brandcardWrapper {
+        width: 105%;
+
+        .allimgWrapper {
+            display: flex;
+            flex-direction: row;
+
+            .brandimgWrapper {
+                width: 17%;
+                margin: 0 1%;
+                border: 1px solid #252552;
+
+                img {
+                    margin-top: .8rem !important;
+                    width: 90%;
+                    display: block;
+                    margin: auto;
+                }
+            }
+        }
+    }
+}
+
+/************************Latest product css end*************************************/
 
 /*********************************Bye Product Css End***********************************/
 
@@ -983,6 +1396,7 @@ button {
                 margin-left: 12%;
 
                 #inhoure {
+                    border-radius: 5px;
                     text-align: center;
                     width: 97%;
                     height: 5vh;
@@ -998,6 +1412,7 @@ button {
                 margin-left: 2%;
 
                 #inminuts {
+                    border-radius: 5px;
                     text-align: center;
                     width: 112%;
                     height: 5vh;
@@ -1013,6 +1428,7 @@ button {
                 margin-left: 5%;
 
                 #insecond {
+                    border-radius: 5px;
                     text-align: center;
                     width: 153%;
                     height: 5vh;
