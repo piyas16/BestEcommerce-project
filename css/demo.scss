@@ -186,8 +186,8 @@ button {
 ***************************** Section area start********************
 ********************************************************************/
 #topSection {
-    height: 72vh;
-
+    height: auto;
+    clear: both;
     background: #f2f3f7;
 
     .catagoriMenu {
@@ -200,6 +200,7 @@ button {
             li {
                 background-color: #fff;
                 position: relative;
+                a{display: block;}
 
 
 
@@ -379,17 +380,17 @@ button {
 /********************shopNow Section******************************/
 #shopNow {
     background-color: #f2f3f7;
-    padding-bottom: 4rem;
+
 
     .menCollection {
         height: 50vh;
         background-image: url("../img/mencollection.png");
         background-repeat: no-repeat;
         background-position: center;
-        background-size: 100%;
+        background-size: 130%;
         position: relative;
         transition: all .8s !important;
-        margin-top: -1rem;
+
 
 
         &:hover .menText {
@@ -416,6 +417,10 @@ button {
         }
 
     }
+
+
+
+
 
     /*********************Our Service*********************/
     .ourService {
@@ -536,7 +541,7 @@ button {
 
                     .price {
                         p {
-                            font-size: .9rem;
+                            font-size: .7rem;
                         }
                     }
                 }
@@ -718,13 +723,15 @@ button {
 
     .row-wrapper {
         background: #fff;
-        height: 78vh;
-        padding: 0 .6rem;
+        height: auto;
+        padding: 0 0.6rem;
+        clear: both;
+
 
 
         .cardWrapper {
 
-            height: 39vh;
+            height: 40vh;
 
             .cardimgWrapper {
                 background: #f7f7f7;
@@ -1634,7 +1641,7 @@ button {
 
                 .price {
                     p {
-                        font-size: .9rem;
+                        font-size: .7rem;
                     }
                 }
             }
@@ -1646,6 +1653,7 @@ button {
 **********************************Footer Area css*********************************
 *********************************************************************************/
 footer {
+    border-bottom: 1px solid #6b6b6b;
     background: #252525;
 
     .footercontentwrap {

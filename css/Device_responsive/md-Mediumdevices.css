@@ -1,0 +1,8 @@
+/**Medium devices (tablets, 768px and up)**/
+@media (min-width: 768px) { 
+        #topSection .watchCol .watch-div .watch-content img {
+            top: 0.3rem;
+            right: 2rem;
+            max-width: 11rem !important;
+        }
+}

@@ -1,0 +1,56 @@
+/**X-Large devices (large desktops, 1200px and up)**/
+@media (min-width: 1200px) {
+    .top-menu .coustomer-support .ContentWrapper ul li a {
+        font-size: 0.8rem;
+    }
+
+    .top-menu .option-div .ContentWrapper .currency {
+        font-size: 0.8rem;
+    }
+
+    .top-menu .option-div .ContentWrapper .language {
+        font-size: 0.8rem;
+        position: relative;
+    }
+
+    .top-menu .option-div .ContentWrapper .wishlist {
+        font-size: 0.8rem;
+        position: relative;
+    }
+
+    #topSection .catagoriMenu ul li a {
+        font-size: 0.8rem;
+    }
+
+    .remove {
+        display: inline-block;
+    }
+
+    #topSection .bg-color #carouselExampleControls .carousel-inner .img-wrapper img {
+        width: 88% !important;
+    }
+
+    #shopNow .menCollection {
+        height: 50vh;
+        background-size: 130%;
+    }
+
+    #shopNow .menCollection .menText {
+        width: 9rem;
+        top: 13rem;
+        left: 6%;
+        opacity: 0;
+    }
+    .shipWrapper .alltextWrapper .colText p {
+        font-size: 0.7rem;
+    }
+    .shipWrapper .alltextWrapper .colText .shopwrapper {
+        width: 6rem;
+    }
+    .shipWrapper .alltextWrapper .colText .shopwrapper a {
+        font-size: 0.7rem;
+    }
+    .dealDiv .dealtext h3 {
+        font-size: 1rem;   
+    }
+}
