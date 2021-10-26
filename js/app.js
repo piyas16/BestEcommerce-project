@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("oct 25, 2021 15:37:25").getTime();
+var countDownDate = new Date("oct 30, 2021 15:37:25").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {
@@ -18,17 +18,22 @@ var x = setInterval(function () {
 
     // Output the result in an element with id="demo"document.getElementById("demo").innerHTML = days + " " + hours + " " +
     // minutes + " " + seconds + " ";
-    document.getElementById("inday").innerHTML = days + " ";
-    document.getElementById("inhoure").innerHTML = hours + " ";
-    document.getElementById("inminuts").innerHTML = minutes + " ";
-    document.getElementById("insecond").innerHTML = seconds + " ";
+    document.querySelector(".inday").innerHTML = days + " ";
+    document.querySelector(".inhoure").innerHTML = hours + " ";
+    document.querySelector(".inminuts").innerHTML = minutes + " ";
+    document.querySelector(".insecond").innerHTML = seconds + " ";
+
+    document.querySelector(".inday1").innerHTML = days + " ";
+    document.querySelector(".inhoure1").innerHTML = hours + " ";
+    document.querySelector(".inminuts1").innerHTML = minutes + " ";
+    document.querySelector(".insecond1").innerHTML = seconds + " ";
 
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("inday").innerHTML = 0 + " ";
-        document.getElementById("inhoure").innerHTML = 0 + " ";
-        document.getElementById("inminuts").innerHTML = 0 + " ";
-        document.getElementById("insecond").innerHTML = 0 + " ";
+        document.querySelector(".inday").innerHTML = 0 + " ";
+        document.querySelector(".inhoure").innerHTML = 0 + " ";
+        document.querySelector(".inminuts").innerHTML = 0 + " ";
+        document.querySelector(".insecond").innerHTML = 0 + " ";
     }
 }, 1000);

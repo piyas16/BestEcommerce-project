@@ -15,7 +15,7 @@ header {
             font-size: .9rem;
 
             ul {
-                margin-left: -16px !important;
+                margin-left: -31px !important;
 
 
                 li {
@@ -101,6 +101,12 @@ select {
 }
 
 /*********sub menu**************/
+.navbar-brand {
+    img {
+        margin-left: -.7rem;
+    }
+}
+
 #categorie,
 .inputbackGround {
     color: #000;
@@ -200,7 +206,10 @@ button {
             li {
                 background-color: #fff;
                 position: relative;
-                a{display: block;}
+
+                a {
+                    display: block;
+                }
 
 
 
@@ -228,7 +237,7 @@ button {
                         i {
                             font-size: 0.8rem;
                             position: absolute !important;
-                            top: 17px;
+                            top: 15px;
                             right: 0.6rem;
                             color: #9a9292
                         }
@@ -572,15 +581,21 @@ button {
 
             img {
                 width: 6rem;
-                margin-left: 1.4rem;
+                display: block;
+                margin: auto !important;
+
             }
 
             p {
-                padding: 0 .6rem;
+                padding: 0 .8rem;
                 font-size: .6rem;
+                max-width: 12rem;
+                margin: auto;
             }
 
             form {
+                margin-top: 1rem;
+
                 input {
                     width: 100%;
                     border: 2px solid #e2e2e2;
@@ -592,7 +607,8 @@ button {
                 button {
                     color: #fff;
                     background: #252525 !important;
-                    margin-left: 16%;
+                    display: block;
+                    margin: auto;
                     border-radius: 5px !important;
                 }
             }
@@ -731,7 +747,7 @@ button {
 
         .cardWrapper {
 
-            height: 40vh;
+            height: auto;
 
             .cardimgWrapper {
                 background: #f7f7f7;
@@ -751,7 +767,9 @@ button {
 
                 img {
                     width: 58%;
-                    margin-left: 22%;
+                    max-width: 6rem;
+                    display: block;
+                    margin: auto;
                 }
 
                 .hovereffect {
@@ -1291,7 +1309,8 @@ button {
 
 /*******************************Right site service**************************************/
 .dealDiv {
-    height: 54vh;
+    height: auto;
+    clear: both;
     background: #fff;
     border: 2px solid #f33535;
 
@@ -1328,8 +1347,11 @@ button {
 
             img {
                 width: 52%;
-                margin-top: -1.5rem;
+                margin-top: -1.5rem !important;
                 margin-left: 24%;
+                max-width: 9rem;
+                margin: auto;
+                display: block;
             }
 
             .hovereffect {
@@ -1379,16 +1401,11 @@ button {
 
         .dayCounter {
 
-            width: 82%;
-            margin: auto;
-
             .day {
 
-
-                #inday {
+                .inday {
                     text-align: center;
-                    width: 153%;
-                    height: 5vh;
+                    padding: .3rem .7rem;
                     border-radius: 5px;
                     background: #f7f7f7 !important;
                 }
@@ -1401,13 +1418,13 @@ button {
 
 
             .hours {
-                margin-left: 12%;
+                margin-left:2%;
 
-                #inhoure {
+                .inhoure {
                     border-radius: 5px;
                     text-align: center;
                     width: 97%;
-                    height: 5vh;
+                    padding: .3rem .7rem;
                     background: #f7f7f7 !important;
                 }
 
@@ -1419,11 +1436,10 @@ button {
             .minuts {
                 margin-left: 2%;
 
-                #inminuts {
+                .inminuts {
                     border-radius: 5px;
                     text-align: center;
-                    width: 112%;
-                    height: 5vh;
+                    padding: .3rem .7rem;
                     background: #f7f7f7 !important;
                 }
 
@@ -1433,13 +1449,12 @@ button {
             }
 
             .second {
-                margin-left: 5%;
+                margin-left: 2%;
 
-                #insecond {
+                .insecond {
                     border-radius: 5px;
                     text-align: center;
-                    width: 153%;
-                    height: 5vh;
+                    padding: .3rem .7rem;
                     background: #f7f7f7 !important;
                 }
 
@@ -1506,6 +1521,8 @@ button {
         p {
             font-size: .9rem;
             color: #757575;
+            margin: auto;
+            max-width: 12rem;
         }
 
         .imgTextWrapper {
@@ -1513,12 +1530,13 @@ button {
 
             img {
                 width: 4rem !important;
-                margin-left: 0.5rem;
+                margin: auto;
                 height: 4rem;
             }
 
             .textWrapper {
                 margin-top: .7rem;
+                margin: auto;
 
                 h4 {
                     font-size: .7rem;
@@ -1572,10 +1590,13 @@ button {
         }
 
         a {
-            padding: 0.2rem .5rem;
+            padding: 0.2rem 0.5rem;
             border: 1px solid black;
-            font-size: .8rem;
+            font-size: 0.8rem;
             color: black;
+            display: block;
+            width: 7rem;
+            margin: auto;
         }
 
         img {
@@ -1665,6 +1686,11 @@ footer {
 
         p {
             color: #6b6b6b;
+            transition: .6s;
+
+            &:hover {
+                color: #f33535 !important;
+            }
         }
 
         .socialArea {
@@ -1684,6 +1710,8 @@ footer {
                     }
 
                     a {
+                        display: block;
+
                         i {
                             margin-top: .5rem;
                             color: #e2e2e2;
@@ -1730,8 +1758,8 @@ footer {
 .infoWrapper {
     .infoTitle {
         h3 {
-            color: rgb(255, 255, 255);
-            font-size: 1.2rem;
+            color: #ffffff;
+            font-size: 1rem;
             position: relative;
 
 
@@ -1763,6 +1791,12 @@ footer {
 
                 a {
                     color: #6b6b6b;
+                    transition: .3s;
+                    font-size: .8rem;
+
+                    &:hover {
+                        color: #f33535 !important;
+                    }
                 }
             }
         }
@@ -1773,7 +1807,7 @@ footer {
 .accountwrapper {
     h3 {
         color: rgb(255, 255, 255);
-        font-size: 1.2rem;
+        font-size: 1rem;
         position: relative;
 
 
@@ -1801,6 +1835,12 @@ footer {
 
                 a {
                     color: #6b6b6b;
+                    transition: .3s;
+                    font-size: .8rem;
+
+                    &:hover {
+                        color: #f33535 !important;
+                    }
                 }
             }
         }
@@ -1812,7 +1852,7 @@ footer {
     .extrasTitle {
         h3 {
             color: rgb(255, 255, 255);
-            font-size: 1.2rem;
+            font-size: 1rem;
             position: relative;
 
 
@@ -1841,6 +1881,12 @@ footer {
 
                 a {
                     color: #6b6b6b;
+                    transition: .3s;
+                    font-size: .8rem;
+
+                    &:hover {
+                        color: #f33535 !important;
+                    }
                 }
             }
         }
@@ -1852,7 +1898,7 @@ footer {
 .contactwrapper {
     h3 {
         color: rgb(255, 255, 255);
-        font-size: 1.2rem;
+        font-size: 1rem;
         position: relative;
 
 
@@ -1884,11 +1930,33 @@ footer {
 
                     a {
                         color: #6b6b6b;
+                        transition: .3s;
+                        font-size: .8rem;
+
+                        &:hover {
+                            color: #f33535 !important;
+                        }
                     }
+
+
                 }
 
 
             }
         }
+    }
+}
+
+/****************************Copy Right*******************/
+.copyright {
+    border-top: 1px solid #323232;
+
+    p {
+        color: #6b6b6b;
+    }
+
+    img {
+        width: 3rem;
+        margin: 0 .4rem;
     }
 }

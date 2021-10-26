@@ -33,6 +33,7 @@
     #shopNow .menCollection {
         height: 50vh;
         background-size: 130%;
+        margin-top: -0.0rem;
     }
 
     #shopNow .menCollection .menText {
@@ -41,16 +42,82 @@
         left: 6%;
         opacity: 0;
     }
+
     .shipWrapper .alltextWrapper .colText p {
         font-size: 0.7rem;
     }
+
     .shipWrapper .alltextWrapper .colText .shopwrapper {
         width: 6rem;
     }
+
     .shipWrapper .alltextWrapper .colText .shopwrapper a {
         font-size: 0.7rem;
     }
+
     .dealDiv .dealtext h3 {
-        font-size: 1rem;   
+        font-size: 1rem;
+    }
+
+    .dealDiv .dealContentWrapper .imgwrapper img {
+        width: 60%;
+        margin-left: 17%;
+    }
+
+    .imgwrapper .hovereffect {
+        margin-top: -3.5rem;
+    }
+
+    .dealDiv .dealContentWrapper .dayCounter .day p {
+        font-size: 0.7rem;
+    }
+
+    .testImonialDiv .testmonialContentWrapper .imgTextWrapper {
+        margin-top: 1.5rem;
+    }
+
+    #shopNow .ourService .serviceWrapper ul .servicelist .serviceCntentWrapper .mainContentWrapper p {
+        font-size: 0.6rem;
+
+    }
+
+    #shopNow .ourService .serviceWrapper ul .servicelist .serviceCntentWrapper .mainContentWrapper p {
+        font-size: 0.6rem;
+        margin-top: -0.3rem;
+    }
+
+    #shopNow .bestSellers .bestsellwrapper .list .textPrice .stars i {
+        font-size: 0.7rem;
+        color: #feba29;
+    }
+
+    #shopNow .bestSellers .bestsellwrapper .list .textPrice .price p {
+        font-size: 0.7rem;
+    }
+
+    #shopNow .newsletter .newswrapper form input {
+        font-size: 0.9rem;
+    }
+
+    #shopNow .newsletter .newswrapper form button {
+        margin-left: 16%;
+
+    }
+
+    .latestproduct .latestwrapper .list .textPrice .stars i {
+        font-size: 0.7rem;
+    }
+
+    .latestproduct .latestwrapper .list .textPrice .price p {
+        font-size: 0.7rem;
+    }
+
+    #shopNow .exclusive .excwrapper h6 {
+        margin-top: 1.3rem;
+    }
+
+    #shopNow .exclusive .excwrapper h6::after {
+        left: 33px;
+        top: 45px;
     }
 }

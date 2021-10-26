@@ -1,8 +1,120 @@
 /**Medium devices (tablets, 768px and up)**/
-@media (min-width: 768px) { 
-        #topSection .watchCol .watch-div .watch-content img {
-            top: 0.3rem;
-            right: 2rem;
-            max-width: 11rem !important;
-        }
+@media (min-width: 768px) {
+    #topSection .watchCol .watch-div .watch-content img {
+        top: 0.3rem;
+        right: 2rem;
+        max-width: 10.2rem !important;
+    }
+
+    #topSection .bg-color #carouselExampleControls .carousel-inner .carousel-item .slidertext {
+        width: 14rem;
+        margin-left: 3rem;
+        margin-bottom: 6rem;
+    }
+
+    #topSection .bg-color #carouselExampleControls .carousel-inner .img-wrapper img {
+        width: 130% !important;
+        margin-left: -3rem;
+    }
+
+    #topSection .bg-color #carouselExampleControls .carousel-inner .img-wrapper .schoolbag {
+        width: 53% !important;
+        margin-left: 5rem;
+        margin-top: 5rem;
+    }
+
+    #shopNow .menCollection {
+        background-size: 89%;
+        margin-top: 1.5rem;
+    }
+
+    #shopNow .menCollection .menText {
+        width: 11rem;
+        top: 13rem;
+        left: 12%;
+    }
+
+    .mainContentWrapper h6 {
+        font-size: 1rem !important;
+    }
+
+    #shopNow .ourService .serviceWrapper ul .servicelist .serviceCntentWrapper .mainContentWrapper p {
+        font-size: 0.8rem;
+    }
+
+    #shopNow .bestSellers .bestsellwrapper .list .textPrice a h6 {
+
+        font-size: 1rem;
+
+    }
+
+    #shopNow .exclusive .excwrapper h6::after {
+        left: 49px;
+        width: 49%;
+    }
+
+    .forresponsive .dealDiv .dealContentWrapper .imgwrapper {
+        background: #f7f7f7;
+        height: 30vh;
+    }
+
+    .testImonialDiv .testmonialContentWrapper img {
+        width: 5rem !important;
+        margin: auto;
+    }
+
+    .fashionbag .fashiontextWrapper img {
+        width: 75%;
+        max-width: 9rem;
+    }
+
+    .latestproduct .latestwrapper .list .textPrice a h6 {
+        font-size: 1rem;
+    }
+
+    .latestproduct .latestwrapper .list .textPrice .stars i {
+        font-size: 0.8rem;
+    }
+
+    .shipWrapper .alltextWrapper .colText .shopwrapper {
+        margin-left: -2.2rem;
+    }
+
+    .featuredDiv .featuredTitleWrapper #buttonWrapper {
+        margin-left: 91%;
+    }
+
+    #specialProduct .specialProductWrapper .specialCard .sepcialimgwrapper img {
+        max-width: 5rem;
+    }
+
+    #specialProduct .specialTitleWrapper #buttonWrapper2 {
+        margin-left: 91%;
+    }
+
+    .ourBlog .blogTitleWrapper .buttonWrapper3 {
+        margin-left: 91%;
+    }
+
+    .brandDiv .brandTitleWrapper .buttonWrapper4 {
+        margin-left: 91%;
+    }
+
+    .featuredDiv .row-wrapper .cardWrapper .cardtextWrapper button {
+        width: 9rem;
+        left: 22%;
+    }
+
+    .ourBlog .blogCardWrapper .blogCard .blogTextWrapper .decriptionDiv p {
+        font-size: 0.7rem;
+    }
+
+    .ourBlog .blogCardWrapper .blogCard .blogTextWrapper .datediv::after {
+        left: 35%;
+        width: 31%;
+    }
+
+    #shopNow .menCollection {
+        display: block;
+    }
 }

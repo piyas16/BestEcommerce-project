@@ -40,7 +40,7 @@ header {
   font-size: 0.9rem;
 }
 .top-menu .coustomer-support .ContentWrapper ul {
-  margin-left: -16px !important;
+  margin-left: -31px !important;
 }
 .top-menu .coustomer-support .ContentWrapper ul li {
   position: relative;
@@ -104,6 +104,10 @@ select {
 }
 
 /*********sub menu**************/
+.navbar-brand img {
+  margin-left: -0.7rem;
+}
+
 #categorie,
 .inputbackGround {
   color: #000;
@@ -202,7 +206,7 @@ button .searchbtn {
 #topSection .catagoriMenu ul li a span i {
   font-size: 0.8rem;
   position: absolute !important;
-  top: 17px;
+  top: 15px;
   right: 0.6rem;
   color: #9a9292;
 }
@@ -436,11 +440,17 @@ button .searchbtn {
 }
 #shopNow .newsletter .newswrapper img {
   width: 6rem;
-  margin-left: 1.4rem;
+  display: block;
+  margin: auto !important;
 }
 #shopNow .newsletter .newswrapper p {
-  padding: 0 0.6rem;
+  padding: 0 0.8rem;
   font-size: 0.6rem;
+  max-width: 12rem;
+  margin: auto;
+}
+#shopNow .newsletter .newswrapper form {
+  margin-top: 1rem;
 }
 #shopNow .newsletter .newswrapper form input {
   width: 100%;
@@ -452,7 +462,8 @@ button .searchbtn {
 #shopNow .newsletter .newswrapper form button {
   color: #fff;
   background: #252525 !important;
-  margin-left: 16%;
+  display: block;
+  margin: auto;
   border-radius: 5px !important;
 }
 #shopNow .exclusive {
@@ -560,7 +571,7 @@ button .searchbtn {
   clear: both;
 }
 .featuredDiv .row-wrapper .cardWrapper {
-  height: 40vh;
+  height: auto;
 }
 .featuredDiv .row-wrapper .cardWrapper .cardimgWrapper {
   background: #f7f7f7;
@@ -578,7 +589,9 @@ button .searchbtn {
 }
 .featuredDiv .row-wrapper .cardWrapper .cardimgWrapper img {
   width: 58%;
-  margin-left: 22%;
+  max-width: 6rem;
+  display: block;
+  margin: auto;
 }
 .featuredDiv .row-wrapper .cardWrapper .cardimgWrapper .hovereffect {
   width: 7.5rem;
@@ -1003,7 +1016,8 @@ button .searchbtn {
 /*********************************Bye Product Css End***********************************/
 /*******************************Right site service**************************************/
 .dealDiv {
-  height: 54vh;
+  height: auto;
+  clear: both;
   background: #fff;
   border: 2px solid #f33535;
 }
@@ -1034,8 +1048,11 @@ button .searchbtn {
 }
 .dealDiv .dealContentWrapper .imgwrapper img {
   width: 52%;
-  margin-top: -1.5rem;
+  margin-top: -1.5rem !important;
   margin-left: 24%;
+  max-width: 9rem;
+  margin: auto;
+  display: block;
 }
 .dealDiv .dealContentWrapper .imgwrapper .hovereffect {
   width: 7.5rem;
@@ -1066,14 +1083,9 @@ button .searchbtn {
   color: #e8b30d;
   margin-top: -0.8rem;
 }
-.dealDiv .dealContentWrapper .dayCounter {
-  width: 82%;
-  margin: auto;
-}
-.dealDiv .dealContentWrapper .dayCounter .day #inday {
+.dealDiv .dealContentWrapper .dayCounter .day .inday {
   text-align: center;
-  width: 153%;
-  height: 5vh;
+  padding: 0.3rem 0.7rem;
   border-radius: 5px;
   background: #f7f7f7 !important;
 }
@@ -1081,13 +1093,13 @@ button .searchbtn {
   font-size: 0.7rem;
 }
 .dealDiv .dealContentWrapper .dayCounter .hours {
-  margin-left: 12%;
+  margin-left: 2%;
 }
-.dealDiv .dealContentWrapper .dayCounter .hours #inhoure {
+.dealDiv .dealContentWrapper .dayCounter .hours .inhoure {
   border-radius: 5px;
   text-align: center;
   width: 97%;
-  height: 5vh;
+  padding: 0.3rem 0.7rem;
   background: #f7f7f7 !important;
 }
 .dealDiv .dealContentWrapper .dayCounter .hours p {
@@ -1096,24 +1108,22 @@ button .searchbtn {
 .dealDiv .dealContentWrapper .dayCounter .minuts {
   margin-left: 2%;
 }
-.dealDiv .dealContentWrapper .dayCounter .minuts #inminuts {
+.dealDiv .dealContentWrapper .dayCounter .minuts .inminuts {
   border-radius: 5px;
   text-align: center;
-  width: 112%;
-  height: 5vh;
+  padding: 0.3rem 0.7rem;
   background: #f7f7f7 !important;
 }
 .dealDiv .dealContentWrapper .dayCounter .minuts p {
   font-size: 0.7rem;
 }
 .dealDiv .dealContentWrapper .dayCounter .second {
-  margin-left: 5%;
+  margin-left: 2%;
 }
-.dealDiv .dealContentWrapper .dayCounter .second #insecond {
+.dealDiv .dealContentWrapper .dayCounter .second .insecond {
   border-radius: 5px;
   text-align: center;
-  width: 153%;
-  height: 5vh;
+  padding: 0.3rem 0.7rem;
   background: #f7f7f7 !important;
 }
 .dealDiv .dealContentWrapper .dayCounter .second p {
@@ -1167,17 +1177,20 @@ button .searchbtn {
 .testImonialDiv .testmonialContentWrapper p {
   font-size: 0.9rem;
   color: #757575;
+  margin: auto;
+  max-width: 12rem;
 }
 .testImonialDiv .testmonialContentWrapper .imgTextWrapper {
   margin-top: 1.5rem;
 }
 .testImonialDiv .testmonialContentWrapper .imgTextWrapper img {
   width: 4rem !important;
-  margin-left: 0.5rem;
+  margin: auto;
   height: 4rem;
 }
 .testImonialDiv .testmonialContentWrapper .imgTextWrapper .textWrapper {
   margin-top: 0.7rem;
+  margin: auto;
 }
 .testImonialDiv .testmonialContentWrapper .imgTextWrapper .textWrapper h4 {
   font-size: 0.7rem;
@@ -1225,6 +1238,9 @@ button .searchbtn {
   border: 1px solid black;
   font-size: 0.8rem;
   color: black;
+  display: block;
+  width: 7rem;
+  margin: auto;
 }
 .fashionbag .fashiontextWrapper img {
   width: 75%;
@@ -1289,6 +1305,10 @@ footer .footercontentwrap .footerlogo img {
 }
 footer .footercontentwrap p {
   color: #6b6b6b;
+  transition: 0.6s;
+}
+footer .footercontentwrap p:hover {
+  color: #f33535 !important;
 }
 footer .footercontentwrap .socialArea ul {
   margin-left: -2rem;
@@ -1303,6 +1323,9 @@ footer .footercontentwrap .socialArea ul li {
 }
 footer .footercontentwrap .socialArea ul li:hover {
   background: #f33535;
+}
+footer .footercontentwrap .socialArea ul li a {
+  display: block;
 }
 footer .footercontentwrap .socialArea ul li a i {
   margin-top: 0.5rem;
@@ -1331,8 +1354,8 @@ footer .topbarwrap .topbar a i {
 
 /********************************info col*********************************************/
 .infoWrapper .infoTitle h3 {
-  color: white;
-  font-size: 1.2rem;
+  color: #ffffff;
+  font-size: 1rem;
   position: relative;
 }
 .infoWrapper .infoTitle h3:before {
@@ -1356,12 +1379,17 @@ footer .topbarwrap .topbar a i {
 }
 .infoWrapper .listwrapper ul li a {
   color: #6b6b6b;
+  transition: 0.3s;
+  font-size: 0.8rem;
+}
+.infoWrapper .listwrapper ul li a:hover {
+  color: #f33535 !important;
 }
 
 /********************Account col***************************/
 .accountwrapper h3 {
   color: white;
-  font-size: 1.2rem;
+  font-size: 1rem;
   position: relative;
 }
 .accountwrapper h3:before {
@@ -1384,12 +1412,17 @@ footer .topbarwrap .topbar a i {
 }
 .accountwrapper .accountLiat ul li a {
   color: #6b6b6b;
+  transition: 0.3s;
+  font-size: 0.8rem;
+}
+.accountwrapper .accountLiat ul li a:hover {
+  color: #f33535 !important;
 }
 
 /******************Extras css***************/
 .extrasWrapper .extrasTitle h3 {
   color: white;
-  font-size: 1.2rem;
+  font-size: 1rem;
   position: relative;
 }
 .extrasWrapper .extrasTitle h3:before {
@@ -1412,13 +1445,18 @@ footer .topbarwrap .topbar a i {
 }
 .extrasWrapper .listwrapper ul li a {
   color: #6b6b6b;
+  transition: 0.3s;
+  font-size: 0.8rem;
+}
+.extrasWrapper .listwrapper ul li a:hover {
+  color: #f33535 !important;
 }
 
 /*********Extra css end**********/
 /*******************************Contact us************************/
 .contactwrapper h3 {
   color: white;
-  font-size: 1.2rem;
+  font-size: 1rem;
   position: relative;
 }
 .contactwrapper h3:before {
@@ -1445,4 +1483,21 @@ footer .topbarwrap .topbar a i {
 }
 .contactwrapper .contactLiat ul li p a {
   color: #6b6b6b;
+  transition: 0.3s;
+  font-size: 0.8rem;
+}
+.contactwrapper .contactLiat ul li p a:hover {
+  color: #f33535 !important;
+}
+
+/****************************Copy Right*******************/
+.copyright {
+  border-top: 1px solid #323232;
+}
+.copyright p {
+  color: #6b6b6b;
+}
+.copyright img {
+  width: 3rem;
+  margin: 0 0.4rem;
 }/*# sourceMappingURL=demo.css.map */

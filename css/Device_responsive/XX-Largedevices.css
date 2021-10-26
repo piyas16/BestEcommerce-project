@@ -1,4 +1,15 @@
 /**XX-Large devices (larger desktops, 1400px and up)**/
 @media (min-width: 1400px) {
-    
+    #topSection .bg-color #carouselExampleControls .carousel-inner .img-wrapper img {
+        width: 95% !important;
+    }
+
+    #topSection .catagoriMenu ul li a {
+        font-size: 1rem;
+        margin: .3rem 0;
+    }
+    #topSection .catagoriMenu ul li a span i {
+        top: 22px;
+      
+    }
 }
