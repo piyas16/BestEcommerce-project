@@ -46,9 +46,10 @@
 
     }
 
+    
     #shopNow .exclusive .excwrapper h6::after {
-        left: 49px;
-        width: 49%;
+        left: 34%;
+        width: 32%;
     }
 
     .forresponsive .dealDiv .dealContentWrapper .imgwrapper {
@@ -177,4 +178,7 @@
     #topSection .catagoriMenu {
         height: auto;
     }
+
+
+   
 }

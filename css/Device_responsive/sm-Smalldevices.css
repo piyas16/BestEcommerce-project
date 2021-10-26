@@ -46,11 +46,6 @@
 
     }
 
-    #shopNow .exclusive .excwrapper h6::after {
-        left: 49px;
-        width: 49%;
-    }
-
     .forresponsive .dealDiv .dealContentWrapper .imgwrapper {
         background: #f7f7f7;
         height: 30vh;
