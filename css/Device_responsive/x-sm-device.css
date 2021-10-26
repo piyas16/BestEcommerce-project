@@ -1,4 +1,4 @@
-/** Small devices (landscape phones, 576px and up)**/
+/****Small devices(landscape phones, 576px and up)****/
 @media (min-width: 320px) {
     #topSection .watchCol .watch-div .watch-content img {
         top: 0.3rem;
